@@ -1,4 +1,4 @@
-date Wed 19 Oct 2022 16:27:08 CEST
+date Fri 21 Oct 2022 12:44:56 CEST
 master hostname surfer-172-29-38-121-hotspot.s-bit.nl
 system Darwin surfer-172-29-38-121-hotspot.s-bit.nl 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
 user brunocamino
@@ -70,7 +70,7 @@ END
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 19 10 2022 TIME 16:27:08.1
+ EEEEEEEEEE STARTING  DATE 21 10 2022 TIME 12:44:56.9
 
  *******************************************************************************
  GaP                                                                             
@@ -765,39 +765,39 @@ END
 
  CAPPA:IS1 12;IS2 12;IS3 12; K PTS MONK NET  72; SYMMOPS:K SPACE  48;G SPACE  24
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.65 TCPU        0.64
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.64 TCPU        0.64
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.65 TCPU        0.64
- EEEEEEEEEE TERMINATION  DATE 19 10 2022 TIME 16:27:08.8
-Wed 19 Oct 2022 16:27:08 CEST
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.64 TCPU        0.64
+ EEEEEEEEEE TERMINATION  DATE 21 10 2022 TIME 12:44:57.6
+Fri 21 Oct 2022 12:44:57 CEST
 Contents of temporary directory:
-total 36240
--rw-r--r--  1 brunocamino  admin   333560 19 Oct 16:27 BAND.DAT
--rw-r--r--  1 brunocamino  admin    24759 19 Oct 16:27 DOSS.DAT
--rw-r--r--  1 brunocamino  admin   140535 18 Oct 10:57 FREQINFO.DAT
--rw-r--r--  1 brunocamino  admin     3192 18 Oct 10:57 MULLIKEN.DAT
--rw-r--r--  1 brunocamino  admin     4738 18 Oct 10:57 SCFOUT.LOG
--rw-r--r--  1 brunocamino  admin    72256 18 Oct 10:57 diis_Fg
--rw-r--r--  1 brunocamino  admin    22080 18 Oct 10:57 diis_Fia1
--rw-r--r--  1 brunocamino  admin    24840 18 Oct 10:57 diis_Fia2
--rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 diis_Sk
--rw-r--r--  1 brunocamino  admin  3018816 19 Oct 16:27 fort.10
--rw-r--r--  1 brunocamino  admin   162632 19 Oct 16:27 fort.11
--rw-r--r--  1 brunocamino  admin    10152 18 Oct 10:57 fort.12
--rw-r--r--  1 brunocamino  admin   957552 19 Oct 16:27 fort.13
--rw-r--r--  1 brunocamino  admin   174848 18 Oct 10:57 fort.20
--rw-r--r--  1 brunocamino  admin  6201145 19 Oct 16:27 fort.25
--rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 fort.28
--rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 fort.29
--rw-r--r--  1 brunocamino  admin   162632 19 Oct 16:27 fort.3
--rw-r--r--@ 1 brunocamino  admin     6246 18 Oct 10:58 fort.34
--rw-r--r--  1 brunocamino  admin    88136 19 Oct 16:27 fort.61
--rw-r--r--  1 brunocamino  admin    58432 19 Oct 16:27 fort.62
--rw-r--r--  1 brunocamino  admin     1170 18 Oct 10:58 fort.65
--rw-r--r--  1 brunocamino  admin  4477608 19 Oct 16:27 fort.8
--rw-r--r--  1 brunocamino  admin   347360 19 Oct 16:27 fort.9
--rw-r--r--  1 brunocamino  admin   167824 18 Oct 10:58 fort.95
--rw-r--r--  1 brunocamino  admin   874575 19 Oct 16:27 fort.98
+total 70680
+-rw-r--r--  1 brunocamino  admin    333560 21 Oct 12:44 BAND.DAT
+-rw-r--r--  1 brunocamino  admin     24759 21 Oct 12:44 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin    140535 18 Oct 10:57 FREQINFO.DAT
+-rw-r--r--  1 brunocamino  admin      3192 18 Oct 10:57 MULLIKEN.DAT
+-rw-r--r--  1 brunocamino  admin      4738 18 Oct 10:57 SCFOUT.LOG
+-rw-r--r--  1 brunocamino  admin     72256 18 Oct 10:57 diis_Fg
+-rw-r--r--  1 brunocamino  admin     22080 18 Oct 10:57 diis_Fia1
+-rw-r--r--  1 brunocamino  admin     24840 18 Oct 10:57 diis_Fia2
+-rw-r--r--  1 brunocamino  admin         0 18 Oct 10:56 diis_Sk
+-rw-r--r--  1 brunocamino  admin   3018816 21 Oct 12:44 fort.10
+-rw-r--r--  1 brunocamino  admin    162632 21 Oct 12:44 fort.11
+-rw-r--r--  1 brunocamino  admin     10152 18 Oct 10:57 fort.12
+-rw-r--r--  1 brunocamino  admin    957552 21 Oct 12:44 fort.13
+-rw-r--r--  1 brunocamino  admin    174848 18 Oct 10:57 fort.20
+-rw-r--r--  1 brunocamino  admin  23699845 21 Oct 12:44 fort.25
+-rw-r--r--  1 brunocamino  admin         0 18 Oct 10:56 fort.28
+-rw-r--r--  1 brunocamino  admin         0 18 Oct 10:56 fort.29
+-rw-r--r--  1 brunocamino  admin    162632 21 Oct 12:44 fort.3
+-rw-r--r--@ 1 brunocamino  admin      6246 18 Oct 10:58 fort.34
+-rw-r--r--  1 brunocamino  admin     88136 21 Oct 12:44 fort.61
+-rw-r--r--  1 brunocamino  admin     58432 21 Oct 12:44 fort.62
+-rw-r--r--  1 brunocamino  admin      1170 18 Oct 10:58 fort.65
+-rw-r--r--  1 brunocamino  admin   4477608 21 Oct 12:44 fort.8
+-rw-r--r--  1 brunocamino  admin    347360 21 Oct 12:44 fort.9
+-rw-r--r--  1 brunocamino  admin    167824 18 Oct 10:58 fort.95
+-rw-r--r--  1 brunocamino  admin    874575 21 Oct 12:44 fort.98
 file fort.9 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_LDA_bands.f9
 file fort.98 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_LDA_bands.f98
 file fort.13 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_LDA_bands.f13

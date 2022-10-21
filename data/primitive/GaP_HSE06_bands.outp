@@ -1,4 +1,4 @@
-date Wed 19 Oct 2022 16:27:01 CEST
+date Fri 21 Oct 2022 12:44:51 CEST
 master hostname surfer-172-29-38-121-hotspot.s-bit.nl
 system Darwin surfer-172-29-38-121-hotspot.s-bit.nl 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
 user brunocamino
@@ -71,7 +71,7 @@ END
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 19 10 2022 TIME 16:27:01.2
+ EEEEEEEEEE STARTING  DATE 21 10 2022 TIME 12:44:51.1
 
  *******************************************************************************
  GaP                                                                             
@@ -118,7 +118,7 @@ END
 
  GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
  NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.31782 BOHR
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.01 TCPU        0.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.02 TCPU        0.01
 
  MATRIX SIZE: P(G)  122233, F(G)   20938, P(G) IRR    7134, F(G) IRR    3565
  MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 285
@@ -165,7 +165,7 @@ END
  BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -5.8969585E-02 AU
 
  CORE DENSITY MATRIX CALCULATION
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.15 TCPU        0.14
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.16 TCPU        0.14
  WARNING **** F90MAIN3 **** BF SYMMETRY ADAPTED-INFO MODIFIED BY BAND-CALL NEWK
 
 
@@ -770,42 +770,44 @@ END
 
  CAPPA:IS1 12;IS2 12;IS3 12; K PTS MONK NET  72; SYMMOPS:K SPACE  48;G SPACE  24
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.67 TCPU        0.65
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.68 TCPU        0.65
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.67 TCPU        0.65
- EEEEEEEEEE TERMINATION  DATE 19 10 2022 TIME 16:27:01.9
-Wed 19 Oct 2022 16:27:01 CEST
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.68 TCPU        0.65
+ EEEEEEEEEE TERMINATION  DATE 21 10 2022 TIME 12:44:51.7
+Fri 21 Oct 2022 12:44:51 CEST
 Contents of temporary directory:
-total 38976
--rw-r--r--  1 brunocamino  admin   333560 19 Oct 16:27 BAND.DAT
--rw-r--r--  1 brunocamino  admin   140535 18 Oct 10:57 FREQINFO.DAT
--rw-r--r--  1 brunocamino  admin     3192 18 Oct 10:57 MULLIKEN.DAT
--rw-r--r--  1 brunocamino  admin     4738 18 Oct 10:57 SCFOUT.LOG
--rw-r--r--  1 brunocamino  admin    72256 18 Oct 10:57 diis_Fg
--rw-r--r--  1 brunocamino  admin    22080 18 Oct 10:57 diis_Fia1
--rw-r--r--  1 brunocamino  admin    24840 18 Oct 10:57 diis_Fia2
--rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 diis_Sk
--rw-r--r--  1 brunocamino  admin  3018816 19 Oct 16:27 fort.10
--rw-r--r--  1 brunocamino  admin   167512 19 Oct 16:27 fort.11
--rw-r--r--  1 brunocamino  admin    10152 18 Oct 10:57 fort.12
--rw-r--r--  1 brunocamino  admin  2933616 19 Oct 16:27 fort.13
--rw-r--r--  1 brunocamino  admin   174848 18 Oct 10:57 fort.20
--rw-r--r--  1 brunocamino  admin  4580895 19 Oct 16:27 fort.25
--rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 fort.28
--rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 fort.29
--rw-r--r--  1 brunocamino  admin   167512 19 Oct 16:27 fort.3
--rw-r--r--@ 1 brunocamino  admin     6246 18 Oct 10:58 fort.34
--rw-r--r--  1 brunocamino  admin    88136 19 Oct 16:27 fort.61
--rw-r--r--  1 brunocamino  admin    58432 19 Oct 16:27 fort.62
--rw-r--r--  1 brunocamino  admin     1170 18 Oct 10:58 fort.65
--rw-r--r--  1 brunocamino  admin  4477608 19 Oct 16:27 fort.8
--rw-r--r--  1 brunocamino  admin   383128 19 Oct 16:27 fort.9
--rw-r--r--  1 brunocamino  admin   167824 18 Oct 10:58 fort.95
--rw-r--r--  1 brunocamino  admin   968828 19 Oct 16:27 fort.98
+total 73520
+-rw-r--r--  1 brunocamino  admin    333560 21 Oct 12:44 BAND.DAT
+-rw-r--r--  1 brunocamino  admin     24759 21 Oct 12:44 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin    140535 18 Oct 10:57 FREQINFO.DAT
+-rw-r--r--  1 brunocamino  admin      3192 18 Oct 10:57 MULLIKEN.DAT
+-rw-r--r--  1 brunocamino  admin      4738 18 Oct 10:57 SCFOUT.LOG
+-rw-r--r--  1 brunocamino  admin     72256 18 Oct 10:57 diis_Fg
+-rw-r--r--  1 brunocamino  admin     22080 18 Oct 10:57 diis_Fia1
+-rw-r--r--  1 brunocamino  admin     24840 18 Oct 10:57 diis_Fia2
+-rw-r--r--  1 brunocamino  admin         0 18 Oct 10:56 diis_Sk
+-rw-r--r--  1 brunocamino  admin   3018816 21 Oct 12:44 fort.10
+-rw-r--r--  1 brunocamino  admin    167512 21 Oct 12:44 fort.11
+-rw-r--r--  1 brunocamino  admin     10152 18 Oct 10:57 fort.12
+-rw-r--r--  1 brunocamino  admin   2933616 21 Oct 12:44 fort.13
+-rw-r--r--  1 brunocamino  admin    174848 18 Oct 10:57 fort.20
+-rw-r--r--  1 brunocamino  admin  22079595 21 Oct 12:44 fort.25
+-rw-r--r--  1 brunocamino  admin         0 18 Oct 10:56 fort.28
+-rw-r--r--  1 brunocamino  admin         0 18 Oct 10:56 fort.29
+-rw-r--r--  1 brunocamino  admin    167512 21 Oct 12:44 fort.3
+-rw-r--r--@ 1 brunocamino  admin      6246 18 Oct 10:58 fort.34
+-rw-r--r--  1 brunocamino  admin     88136 21 Oct 12:44 fort.61
+-rw-r--r--  1 brunocamino  admin     58432 21 Oct 12:44 fort.62
+-rw-r--r--  1 brunocamino  admin      1170 18 Oct 10:58 fort.65
+-rw-r--r--  1 brunocamino  admin   4477608 21 Oct 12:44 fort.8
+-rw-r--r--  1 brunocamino  admin    383128 21 Oct 12:44 fort.9
+-rw-r--r--  1 brunocamino  admin    167824 18 Oct 10:58 fort.95
+-rw-r--r--  1 brunocamino  admin    968828 21 Oct 12:44 fort.98
 file fort.9 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands.f9
 file fort.98 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands.f98
 file fort.13 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands.f13
 geometry input file fort.34 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands.gui
 file fort.25 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands.f25
 file BAND.DAT saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands_dat.DOSS
 output of Crgra in file /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_HSE06_bands.outpg
