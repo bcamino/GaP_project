@@ -1,0 +1,120 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"epcc-job-env"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "epcc-job-env"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+Warning: You have enabled access to software packages installed
+by external parties on ARCHER2 or those that are not fully-supported.
+The ARCHER2 CSE service does not test these packages. The service desk
+will make reasonable efforts to assist with questions on the use of
+these packages but some issues may not be able to be resolved by the
+service and they may direct you to seek help from external parties.
+
+
+Output exists: GaP_HSE06_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_HSE06_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_HSE06_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_HSE06_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_HSE06_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_HSE06_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBE_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBE0_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE0_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE0_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE0_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE0_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBE0_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBESOL_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBESOL0_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL0_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL0_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL0_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL0_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_PBESOL0_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_LDA_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_LDA_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_LDA_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_LDA_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_LDA_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_LDA_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_M06_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_M06_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_M06_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_M06_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_M06_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_M06_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_BLYP_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_BLYP_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_BLYP_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_BLYP_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_BLYP_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_BLYP_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_B3LYP_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_B3LYP_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_B3LYP_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_B3LYP_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_B3LYP_doss_/checkfile0': No such file or directory
+nid004552
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/properties/tmp_GaP_B3LYP_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
