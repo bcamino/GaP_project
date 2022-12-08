@@ -1,0 +1,2021 @@
+date:                Wed Dec  7 21:32:30 GMT 2022
+hostname:            nid003710
+system:              Linux nid003710 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
+user:                bcamino
+input:               /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_doss_2.d12
+output:              /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_doss_2.out
+executable script:   /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm
+executable:          Pcrystal
+Command:             srun --hint=nomultithread --distribution=block:block Pcrystal
+Slurm JobID:         
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/tmp_GaP_PBE_phonons_doss_2_      
+input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_doss_2.d12
+GaP
+EXTERNAL
+SCELPHONO
+2 0 0
+0 2 0
+0 0 2
+FREQCALC
+RESTART
+DISPERSI
+INTERPHESS
+10 10 10
+0
+PDOS
+600 1000
+0
+WANG
+8.771637 0.00000  0.00000
+0.00000 8.771637 0.00000
+0.00000 0.00000 8.771637 
+ENDFREQ
+END
+31 15
+0 0 8 2.0 1.0
+  435548.66254      0.00023646329650
+  65289.589031      0.00183352717760
+  14858.784256      0.00953718630810
+  4205.9734729      0.03880341246800
+  1369.6416431      0.12661604848000
+  492.30348905      0.30175310292000
+  191.41923233      0.43543934218000
+  75.840558665      0.23282363780000
+0 0 4 2.0 1.0
+  474.30810613     -0.02674370795800
+  147.10297560     -0.12654657542000
+  23.982599435      0.58840346839000
+  10.298230094      0.56324271589000
+0 0 2 2.0 1.0
+  16.050381430     -0.24516439508000
+  2.6988468784      0.74578049593000
+0 0 1 0.0 1.0
+  1.1590064400      1.00000000000000
+0 0 1 2.0 1.0
+  0.5763081300      1.00000000000000
+0 0 1 0.0 1.0
+  0.1933825700      1.00000000000000
+0 2 6 6.0 1.0
+  2432.0171070      0.00224340659280
+  576.12049582      0.01834226533600
+  185.11584354      0.08727969716700
+  69.246572556      0.25684868351000
+  27.818107777      0.42398378107000
+  11.420229938      0.25701340043000
+0 2 3 6.0 1.0
+  42.819661530     -0.01932651911900
+  6.3885901000      0.31571386917000
+  2.6698993326      0.57617792822000
+0 2 1 1.0 1.0
+  1.0663932200      1.00000000000000
+0 2 1 0.0 1.0
+  0.3641398200      1.00000000000000
+0 2 1 0.0 1.0
+  0.1448217200      1.00000000000000
+0 3 5 10 1.0
+  103.92331829      0.01146461365200
+  30.371094389      0.07362574738300
+  10.872078097      0.23505107382000
+  4.1549137954      0.40318563513000
+  1.5345659145      0.40824748152000
+0 3 1 0.0 1.0
+  1.3915711500      1.00000000000000
+0 3 1 0.0 1.0
+  0.6852028800      1.00000000000000 
+0 3 1 0.0 1.0
+  0.2830723400      1.00000000000000 
+15 10
+0 0 7 2.0 1.0
+  52426.999233       0.0005520716410
+  7863.2660552       0.0042678595308
+  1789.5227333       0.0219315291860
+  506.27300165       0.0856671683730
+  164.60698546       0.2484068660500
+  58.391918722       0.4633675397100
+  21.643663201       0.3535055815600
+0 0 3 2.0 1.0
+  99.013837620       0.0218956799580
+  30.550439817       0.0956504702950
+  5.4537087661      -0.2945427018600
+0 0 2 2.0 1.0
+  2.6503362563       1.3294381200000
+  1.2726688867       0.6610939647300
+0 0 1 0.0 1.0
+  0.3072409700       1.0000000000000
+0 0 1 0.0 1.0
+  0.1202708300       1.0000000000000
+0 2 5 6.0 1.0
+  472.27219248       0.0025710623052
+  111.58882756       0.0202502979990
+  35.445936418       0.0915807167870
+  12.990776875       0.2574945401400
+  5.0486221658       0.4286289975800
+0 2 1 3.0 1.0
+  1.8889755200       1.0000000000000
+0 2 1 0.0 1.0
+  0.4424064200       1.0000000000000
+0 2 1 0.0 1.0
+  0.1573225300       1.0000000000000
+0 3 1 0.0 1.0
+  0.5061295000       1.0000000000000
+99 0
+ENDBS
+DFT
+EXCHANGE
+PBE
+CORRELAT
+PBE
+ENDDFT
+TOLINTEG
+8 8 8 8 16
+SCFDIR
+SHRINK
+10 20
+HISTDIIS
+10
+FMIXING
+80
+MAXCYCLE
+100
+TOLDEE
+10
+ENDSCF
+input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_doss_2.gui
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_2.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/tmp_GaP_PBE_phonons_doss_2_/fort.20
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_2.FREQINFO, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/tmp_GaP_PBE_phonons_doss_2_/FREQINFO.DAT
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_2.BORN, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/tmp_GaP_PBE_phonons_doss_2_/BORN.DAT
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/GaP_PBE_phonons_2.f13, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/tmp_GaP_PBE_phonons_doss_2_/fort.13
+         256 PROCESSORS WORKING
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.2 - March 1st, 2018 STFC/Archer2 build    *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 07 12 2022 TIME 21:32:36.7
+ GaP                                                                             
+
+ GEOMETRY INPUT FROM EXTERNAL FILE (FORTRAN UNIT 34)
+ 3D - CRYSTAL 
+
+ *******************************************************************************
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - PRIMITIVE CELL
+       A          B          C        ALPHA      BETA     GAMMA        VOLUME
+    3.89128    3.89128    3.89128    60.00000  60.00000  60.00000     41.664051
+ INFORMATION **** CHKGRP **** SPGR WITH NO INVERSION
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CELL:    2
+
+ CARTESIAN COORDINATES (ANGSTROM) - IRREDUCIBLE ATOMS AND SYMMETRY RELATED
+
+ AT.IRR.  AT  AT.N.          X                   Y                   Z
+     1     1    31    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+     2     2    15    1.375774228731E+00 -1.375774228731E+00 -1.375774228731E+00
+
+ SPACE  GROUP  N.                     :  216
+ NUMBER OF SYMMETRY OPERATORS         :   24
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL - CENTRING CODE 1/0 VOLUME=    41.664051 - DENSITY  3.982 g/cm^3
+         A              B              C           ALPHA      BETA       GAMMA 
+     3.89127715     3.89127715     3.89127715    60.000000  60.000000  60.000000
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    2 - ATOMS IN THE UNIT CELL:    2
+     ATOM                 X/A                 Y/B                 Z/C    
+ *******************************************************************************
+      1 T  31 GA    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 T  15 P     2.499999999995E-01  2.500000000002E-01  2.500000000002E-01
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+ NO SYMMOPS WITH FINITE TRANSLATIONAL COMPONENT
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    41.18141 BOHR
+
+ *******************************************************************************
+ * SUPERCELL OPTION
+ *******************************************************************************
+
+
+        EXPANSION MATRIX OF PRIMITIVE CELL
+ E1     2.000     0.000     0.000
+ E2     0.000     2.000     0.000
+ E3     0.000     0.000     2.000
+
+ NUMBER OF ATOMS PER SUPERCELL    16
+
+        DIRECT LATTICE VECTORS COMPONENTS (ANGSTROM)
+ B1     0.000     5.503     5.503
+ B2     5.503     0.000     5.503
+ B3     5.503     5.503     0.000
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES)
+       A          B          C         ALPHA     BETA     GAMMA        VOLUME
+    7.78255    7.78255    7.78255    60.00000  60.00000  60.00000    333.312407
+
+
+ **** ATOMS BELONGING TO THE SUPERCELL
+ LABEL AT.NO.      COORDINATES (ANGSTROM AND FRACTIONAL)
+     1    31     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000
+     2    31    -2.7515    -2.7515     0.0000    -0.0000     0.0000    -0.5000
+     3    31    -2.7515     0.0000    -2.7515    -0.0000    -0.5000     0.0000
+     4    31    -5.5031    -2.7515    -2.7515    -0.0000    -0.5000    -0.5000
+     5    31     0.0000    -2.7515    -2.7515    -0.5000    -0.0000     0.0000
+     6    31    -2.7515    -0.0000     2.7515     0.5000     0.0000    -0.5000
+     7    31    -2.7515     2.7515    -0.0000     0.5000    -0.5000     0.0000
+     8    31    -5.5031    -0.0000    -0.0000     0.5000    -0.5000    -0.5000
+     9    15     1.3758    -1.3758    -1.3758    -0.3750     0.1250     0.1250
+    10    15    -1.3758    -4.1273    -1.3758    -0.3750     0.1250    -0.3750
+    11    15    -1.3758    -1.3758    -4.1273    -0.3750    -0.3750     0.1250
+    12    15    -4.1273    -4.1273    -4.1273    -0.3750    -0.3750    -0.3750
+    13    15     1.3758     1.3758     1.3758     0.1250     0.1250     0.1250
+    14    15    -1.3758    -1.3758     1.3758     0.1250     0.1250    -0.3750
+    15    15    -1.3758     1.3758    -1.3758     0.1250    -0.3750     0.1250
+    16    15    -4.1273    -1.3758    -1.3758     0.1250    -0.3750    -0.3750
+
+ **************************** SUPERCELL GENERATED ****************************
+
+ **** ATOMS IN THE SUPERCELL REORDERED FOR PHONON CALCULATION
+      ATOMS IN THE SMALL CELL ON TOP
+
+ LABEL AT.NO.      COORDINATES (ANGSTROM)
+     1    31     0.0000     0.0000     0.0000
+     2    15     1.3758    -1.3758    -1.3758
+     3    31    -2.7515    -0.0000    -2.7515
+     4    31    -5.5031    -2.7515    -2.7515
+     5    31    -0.0000    -2.7515    -2.7515
+     6    31    -2.7515    -0.0000     2.7515
+     7    31    -2.7515     2.7515    -0.0000
+     8    31    -5.5031    -0.0000    -0.0000
+     9    31    -2.7515    -2.7515    -0.0000
+    10    15    -1.3758    -4.1273    -1.3758
+    11    15    -1.3758    -1.3758    -4.1273
+    12    15    -4.1273    -4.1273    -4.1273
+    13    15     1.3758     1.3758     1.3758
+    14    15    -1.3758    -1.3758     1.3758
+    15    15    -1.3758     1.3758    -1.3758
+    16    15    -4.1273    -1.3758    -1.3758
+
+ FRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQ
+
+                       FREQUENCY CALCULATION
+
+ INFORMATION **** INPFREQ **** FREQUENCY CALCULATION RESTART(DATA FROM FREQINFO.DAT)
+ INFORMATION **** INPFREQ **** PHONON DISPERSION CALCULATION
+ INFORMATION **** INPFREQ **** INTERPOLATION OF THE HESSIAN
+ RESIDUAL BORN CHARGE
+   0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ INFORMATION **** INPFREQ **** NEW DEFAULT - IMPOSING ECKART CONDITIONS TO THE HESSIAN
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX   155.64316 BOHR
+
+ GEOMETRY FOR WAVE FUNCTION - DIMENSIONALITY OF THE SYSTEM    3
+ (NON PERIODIC DIRECTION: LATTICE PARAMETER FORMALLY SET TO 500)
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL - CENTRING CODE 1/0 VOLUME=   333.312407 - DENSITY  3.982 g/cm^3
+         A              B              C           ALPHA      BETA       GAMMA 
+     7.78255429     7.78255429     7.78255429    60.000000  60.000000  60.000000
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    5 - ATOMS IN THE UNIT CELL:   16
+     ATOM                 X/A                 Y/B                 Z/C    
+ *******************************************************************************
+      1 T  31 GA    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 T  15 P    -3.750000000000E-01  1.250000000000E-01  1.250000000000E-01
+      3 T  31 GA   -2.749052317477E-17 -5.000000000000E-01  2.749052317477E-17
+      4 F  31 GA   -2.749052317477E-17 -5.000000000000E-01 -5.000000000000E-01
+      5 F  31 GA   -5.000000000000E-01 -2.749052317477E-17  2.749052317477E-17
+      6 F  31 GA   -5.000000000000E-01  2.802062805649E-17 -5.000000000000E-01
+      7 F  31 GA   -5.000000000000E-01 -5.000000000000E-01  5.498104634954E-17
+      8 T  31 GA   -5.000000000000E-01 -5.000000000000E-01 -5.000000000000E-01
+      9 F  31 GA   -2.749052317477E-17  2.749052317477E-17 -5.000000000000E-01
+     10 T  15 P    -3.750000000000E-01  1.250000000000E-01 -3.750000000000E-01
+     11 F  15 P    -3.750000000000E-01 -3.750000000000E-01  1.250000000000E-01
+     12 F  15 P    -3.750000000000E-01 -3.750000000000E-01 -3.750000000000E-01
+     13 F  15 P     1.250000000000E-01  1.250000000000E-01  1.250000000000E-01
+     14 F  15 P     1.250000000000E-01  1.250000000000E-01 -3.750000000000E-01
+     15 F  15 P     1.250000000000E-01 -3.750000000000E-01  1.250000000000E-01
+     16 F  15 P     1.250000000000E-01 -3.750000000000E-01 -3.750000000000E-01
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+
+ ****   24 SYMMOPS - TRANSLATORS IN FRACTIONAL UNITS
+ **** MATRICES AND TRANSLATORS IN THE CRYSTALLOGRAPHIC REFERENCE FRAME
+   V INV                    ROTATION MATRICES                   TRANSLATORS
+   1   1  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   2   2 -0.00  1.00  0.00  1.00 -0.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+   3   3 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00
+   4   4  0.00  0.00  1.00 -1.00 -1.00 -1.00  1.00 -0.00 -0.00  0.00  0.00  0.00
+   5   6 -0.00 -0.00  1.00  1.00  0.00 -0.00  0.00  1.00  0.00  0.00  0.00  0.00
+   6   5 -0.00  1.00 -0.00  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  0.00  0.00
+   7   8  1.00  0.00 -0.00 -0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+   8   7  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.00  1.00 -0.00  0.00  0.00  0.00
+   9  10 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00 -0.00  0.00  0.00  0.00
+  10   9  0.00 -0.00  1.00 -0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  11  12  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.00 -0.00  1.00  0.00  0.00  0.00
+  12  11 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00 -0.00  1.00  0.00  0.00  0.00
+  13  13 -0.00  1.00 -0.00  1.00 -0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  14  14  1.00 -0.00  0.00 -0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  15  16  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.00  1.00 -0.00  0.00  0.00  0.00
+  16  15 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00 -0.00  0.00  0.00  0.00  0.00
+  17  17  1.00 -0.00 -0.00 -0.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00
+  18  18 -0.00 -0.00  1.00  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  19  20 -0.00  0.00  1.00  1.00 -0.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  20  19  0.00  1.00  0.00 -1.00 -1.00 -1.00  1.00 -0.00 -0.00  0.00  0.00  0.00
+  21  22 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00 -0.00  0.00  0.00  0.00
+  22  21  0.00  1.00 -0.00 -0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  23  23 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.00  0.00  1.00  0.00  0.00  0.00
+  24  24  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.00 -0.00  1.00  0.00  0.00  0.00
+
+ DIRECT LATTICE VECTORS CARTESIAN COMPONENTS (ANGSTROM)
+          X                    Y                    Z
+   0.000000000000E+00   0.550309691492E+01   0.550309691492E+01
+   0.550309691492E+01   0.000000000000E+00   0.550309691492E+01
+   0.550309691492E+01   0.550309691492E+01   0.000000000000E+00
+
+
+ CARTESIAN COORDINATES - PRIMITIVE CELL
+ *******************************************************************************
+ *      ATOM          X(ANGSTROM)         Y(ANGSTROM)         Z(ANGSTROM)
+ *******************************************************************************
+    1    31 GA    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+    2    15 P     1.375774228730E+00 -1.375774228730E+00 -1.375774228730E+00
+    3    31 GA    2.751548457460E+00  1.355007587958E-35  2.751548457460E+00
+    4    31 GA    5.503096914920E+00  2.751548457460E+00  2.751548457460E+00
+    5    31 GA    1.355007587958E-35  2.751548457460E+00  2.751548457460E+00
+    6    31 GA    2.751548457460E+00  5.503096914920E+00  2.751548457460E+00
+    7    31 GA    2.751548457460E+00  2.751548457460E+00  5.503096914920E+00
+    8    31 GA    5.503096914920E+00  5.503096914920E+00  5.503096914920E+00
+    9    31 GA    2.751548457460E+00  2.751548457460E+00  1.355007587958E-35
+   10    15 P    -1.375774228730E+00 -4.127322686190E+00 -1.375774228730E+00
+   11    15 P    -1.375774228730E+00 -1.375774228730E+00 -4.127322686190E+00
+   12    15 P    -4.127322686190E+00 -4.127322686190E+00 -4.127322686190E+00
+   13    15 P     1.375774228730E+00  1.375774228730E+00  1.375774228730E+00
+   14    15 P    -1.375774228730E+00 -1.375774228730E+00  1.375774228730E+00
+   15    15 P    -1.375774228730E+00  1.375774228730E+00 -1.375774228730E+00
+   16    15 P    -4.127322686190E+00 -1.375774228730E+00 -1.375774228730E+00
+
+ *******************************************************************************
+ LOCAL ATOMIC FUNCTIONS BASIS SET
+ *******************************************************************************
+   ATOM   X(AU)   Y(AU)   Z(AU)  N. TYPE  EXPONENT  S COEF   P COEF   D/F/G COEF
+ *******************************************************************************
+   1 GA   0.000   0.000   0.000
+                                  1 S  
+                                         4.355E+05 2.365E-04 0.000E+00 0.000E+00
+                                         6.529E+04 1.834E-03 0.000E+00 0.000E+00
+                                         1.486E+04 9.537E-03 0.000E+00 0.000E+00
+                                         4.206E+03 3.880E-02 0.000E+00 0.000E+00
+                                         1.370E+03 1.266E-01 0.000E+00 0.000E+00
+                                         4.923E+02 3.018E-01 0.000E+00 0.000E+00
+                                         1.914E+02 4.354E-01 0.000E+00 0.000E+00
+                                         7.584E+01 2.328E-01 0.000E+00 0.000E+00
+                                  2 S  
+                                         4.743E+02-2.674E-02 0.000E+00 0.000E+00
+                                         1.471E+02-1.265E-01 0.000E+00 0.000E+00
+                                         2.398E+01 5.884E-01 0.000E+00 0.000E+00
+                                         1.030E+01 5.632E-01 0.000E+00 0.000E+00
+                                  3 S  
+                                         1.605E+01-2.452E-01 0.000E+00 0.000E+00
+                                         2.699E+00 7.458E-01 0.000E+00 0.000E+00
+                                  4 S  
+                                         1.159E+00 1.000E+00 0.000E+00 0.000E+00
+                                  5 S  
+                                         5.763E-01 1.000E+00 0.000E+00 0.000E+00
+                                  6 S  
+                                         1.934E-01 1.000E+00 0.000E+00 0.000E+00
+                           7-     9 P  
+                                         2.432E+03 0.000E+00 2.243E-03 0.000E+00
+                                         5.761E+02 0.000E+00 1.834E-02 0.000E+00
+                                         1.851E+02 0.000E+00 8.728E-02 0.000E+00
+                                         6.925E+01 0.000E+00 2.568E-01 0.000E+00
+                                         2.782E+01 0.000E+00 4.240E-01 0.000E+00
+                                         1.142E+01 0.000E+00 2.570E-01 0.000E+00
+                          10-    12 P  
+                                         4.282E+01 0.000E+00-1.933E-02 0.000E+00
+                                         6.389E+00 0.000E+00 3.157E-01 0.000E+00
+                                         2.670E+00 0.000E+00 5.762E-01 0.000E+00
+                          13-    15 P  
+                                         1.066E+00 0.000E+00 1.000E+00 0.000E+00
+                          16-    18 P  
+                                         3.641E-01 0.000E+00 1.000E+00 0.000E+00
+                          19-    21 P  
+                                         1.448E-01 0.000E+00 1.000E+00 0.000E+00
+                          22-    26 D  
+                                         1.039E+02 0.000E+00 0.000E+00 1.146E-02
+                                         3.037E+01 0.000E+00 0.000E+00 7.363E-02
+                                         1.087E+01 0.000E+00 0.000E+00 2.351E-01
+                                         4.155E+00 0.000E+00 0.000E+00 4.032E-01
+                                         1.535E+00 0.000E+00 0.000E+00 4.082E-01
+                          27-    31 D  
+                                         1.392E+00 0.000E+00 0.000E+00 1.000E+00
+                          32-    36 D  
+                                         6.852E-01 0.000E+00 0.000E+00 1.000E+00
+                          37-    41 D  
+                                         2.831E-01 0.000E+00 0.000E+00 1.000E+00
+   2 P    2.600  -2.600  -2.600
+                                 42 S  
+                                         5.243E+04 5.521E-04 0.000E+00 0.000E+00
+                                         7.863E+03 4.268E-03 0.000E+00 0.000E+00
+                                         1.790E+03 2.193E-02 0.000E+00 0.000E+00
+                                         5.063E+02 8.567E-02 0.000E+00 0.000E+00
+                                         1.646E+02 2.484E-01 0.000E+00 0.000E+00
+                                         5.839E+01 4.634E-01 0.000E+00 0.000E+00
+                                         2.164E+01 3.535E-01 0.000E+00 0.000E+00
+                                 43 S  
+                                         9.901E+01 2.190E-02 0.000E+00 0.000E+00
+                                         3.055E+01 9.565E-02 0.000E+00 0.000E+00
+                                         5.454E+00-2.945E-01 0.000E+00 0.000E+00
+                                 44 S  
+                                         2.650E+00 1.329E+00 0.000E+00 0.000E+00
+                                         1.273E+00 6.611E-01 0.000E+00 0.000E+00
+                                 45 S  
+                                         3.072E-01 1.000E+00 0.000E+00 0.000E+00
+                                 46 S  
+                                         1.203E-01 1.000E+00 0.000E+00 0.000E+00
+                          47-    49 P  
+                                         4.723E+02 0.000E+00 2.571E-03 0.000E+00
+                                         1.116E+02 0.000E+00 2.025E-02 0.000E+00
+                                         3.545E+01 0.000E+00 9.158E-02 0.000E+00
+                                         1.299E+01 0.000E+00 2.575E-01 0.000E+00
+                                         5.049E+00 0.000E+00 4.286E-01 0.000E+00
+                          50-    52 P  
+                                         1.889E+00 0.000E+00 1.000E+00 0.000E+00
+                          53-    55 P  
+                                         4.424E-01 0.000E+00 1.000E+00 0.000E+00
+                          56-    58 P  
+                                         1.573E-01 0.000E+00 1.000E+00 0.000E+00
+                          59-    63 D  
+                                         5.061E-01 0.000E+00 0.000E+00 1.000E+00
+   3 GA   5.200   0.000   5.200
+   4 GA  10.399   5.200   5.200
+   5 GA   0.000   5.200   5.200
+   6 GA   5.200  10.399   5.200
+   7 GA   5.200   5.200  10.399
+   8 GA  10.399  10.399  10.399
+   9 GA   5.200   5.200   0.000
+  10 P   -2.600  -7.800  -2.600
+  11 P   -2.600  -2.600  -7.800
+  12 P   -7.800  -7.800  -7.800
+  13 P    2.600   2.600   2.600
+  14 P   -2.600  -2.600   2.600
+  15 P   -2.600   2.600  -2.600
+  16 P   -7.800  -2.600  -2.600
+ INFORMATION **** SET_MPP **** PCRYSTAL CALCULATION
+ INFORMATION **** READM2 **** NEW DEFAULT: FOCK/KS MATRIX MIXING SET TO 30 %
+ INFORMATION **** READM2 **** NEW DEFAULT: FULL DIRECT SCF MODE
+ INFORMATION **** READM2 **** NEW DEFAULT: COULOMB BIPOLAR BUFFER SET TO 32 Mb
+ INFORMATION **** READM2 **** NEW DEFAULT: EXCHANGE BIPOLAR BUFFER SET TO 32 Mb
+
+ *******************************************************************************
+ NEW DEFAULT: DFT INTEGRATION GRID INCREASED TO XLGRID
+ NEW DEFAULT: DIIS ACCELERATOR ACTIVE
+ USE KEYWORD NODIIS TO TURN IT OFF
+ *******************************************************************************
+
+ INFORMATION **** TOLINTEG **** COULOMB AND EXCHANGE SERIES TOLERANCES MODIFIED
+ INFORMATION **** READM2 **** FULL DIRECT SCF (MONO AND BIEL INT) SELECTED
+ INFORMATION **** MAXCYCLE **** MAX NUMBER OF SCF CYCLES SET TO         100
+ INFORMATION **** TOLDEE **** SCF TOL ON TOTAL ENERGY SET TO          10
+ *******************************************************************************
+ N. OF ATOMS PER CELL        16  COULOMB OVERLAP TOL         (T1) 10**   -8
+ NUMBER OF SHELLS           200  COULOMB PENETRATION TOL     (T2) 10**   -8
+ NUMBER OF AO               504  EXCHANGE OVERLAP TOL        (T3) 10**   20
+ N. OF ELECTRONS PER CELL   368  EXCHANGE PSEUDO OVP (F(G))  (T4) 10**   20
+ CORE ELECTRONS PER CELL    304  EXCHANGE PSEUDO OVP (P(G))  (T5) 10**   20
+ N. OF SYMMETRY OPERATORS    24  POLE ORDER IN MONO ZONE                  4
+ *******************************************************************************
+ TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(PERDEW-BURKE-ERNZERHOF)[PERDEW-BURKE-ERNZERHOF]
+
+
+ CAPPA:IS1 10;IS2 10;IS3 10; K PTS MONK NET  47; SYMMOPS:K SPACE  48;G SPACE  24
+
+ *******************************************************************************
+ MAX NUMBER OF SCF CYCLES     100  CONVERGENCE ON DELTAP        10**-20
+ WEIGHT OF F(I) IN F(I+1)      80% CONVERGENCE ON ENERGY        10**-10
+ SHRINK. FACT.(MONKH.)   10 10 10  NUMBER OF K POINTS IN THE IBZ     47
+ SHRINKING FACTOR(GILAT NET)   20  NUMBER OF K POINTS(GILAT NET)    256
+ *******************************************************************************
+ *** K POINTS COORDINATES (OBLIQUE COORDINATES IN UNITS OF IS = 10)
+   1-R(  0  0  0)   2-C(  1  0  0)   3-C(  2  0  0)   4-C(  3  0  0)
+   5-C(  4  0  0)   6-R(  5  0  0)   7-C(  1  1  0)   8-C(  2  1  0)
+   9-C(  3  1  0)  10-C(  4  1  0)  11-C(  5  1  0)  12-C(  6  1  0)
+  13-C(  7  1  0)  14-C(  8  1  0)  15-C(  9  1  0)  16-C(  2  2  0)
+  17-C(  3  2  0)  18-C(  4  2  0)  19-C(  5  2  0)  20-C(  6  2  0)
+  21-C(  7  2  0)  22-C(  8  2  0)  23-C(  3  3  0)  24-C(  4  3  0)
+  25-C(  5  3  0)  26-C(  6  3  0)  27-C(  7  3  0)  28-C(  4  4  0)
+  29-C(  5  4  0)  30-C(  6  4  0)  31-R(  5  5  0)  32-C(  3  2  1)
+  33-C(  4  2  1)  34-C(  5  2  1)  35-C(  6  2  1)  36-C(  4  3  1)
+  37-C(  5  3  1)  38-C(  6  3  1)  39-C(  7  3  1)  40-C(  8  3  1)
+  41-C(  5  4  1)  42-C(  6  4  1)  43-C(  7  4  1)  44-C(  6  5  1)
+  45-C(  6  4  2)  46-C(  7  4  2)  47-C(  7  5  2)
+
+ DIRECT LATTICE VECTORS COMPON. (A.U.)     RECIP. LATTICE VECTORS COMPON. (A.U.) 
+        X            Y            Z              X            Y            Z
+    0.0000000   10.3993461   10.3993461     -0.3020952    0.3020952    0.3020952
+   10.3993461    0.0000000   10.3993461      0.3020952   -0.3020952    0.3020952
+   10.3993461   10.3993461    0.0000000      0.3020952    0.3020952   -0.3020952
+
+ DISK SPACE FOR EIGENVECTORS (FTN 10)    23115456 REALS
+
+ SYMMETRY ADAPTION OF THE BLOCH FUNCTIONS ENABLED
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        1.36 TCPU        0.77
+
+ MATRIX SIZE: P(G)  319176, F(G)  160176, P(G) IRR   14944, F(G) IRR   14944
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 133
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        1.63 TCPU        1.04
+
+ NEIGHBORS OF THE NON-EQUIVALENT ATOMS
+
+ N = NUMBER OF NEIGHBORS AT DISTANCE R
+    ATOM  N     R/ANG      R/AU   NEIGHBORS (ATOM LABELS AND CELL INDICES)
+   1 GA   4     2.3829     4.5030    2 P    0 0 0   13 P    0 0 0   14 P    0 0 0
+                                    15 P    0 0 0
+   1 GA  12     3.8913     7.3534    3 GA   0 0 0    3 GA   0-1 0    4 GA   0-1 0
+                                     4 GA   0 0-1    5 GA   0 0 0    5 GA  -1 0 0
+                                     6 GA   0 0-1    6 GA  -1 0 0    7 GA  -1 0 0
+                                     7 GA   0-1 0    9 GA   0 0 0    9 GA   0 0-1
+   1 GA  12     4.5629     8.6227   10 P    1 0 0   10 P    0 0 0   10 P    0 0 1
+                                    11 P    0 0 0   11 P    1 0 0   11 P    0 1 0
+                                    12 P    0 0 1   12 P    0 1 0   12 P    1 0 0
+                                    16 P    0 1 0   16 P    0 0 1   16 P    0 0 0
+   1 GA   6     5.5031    10.3993    8 GA  -1 0 0    8 GA   0-1 0    8 GA   0 0-1
+                                     8 GA  -1-1 0    8 GA  -1 0-1    8 GA   0-1-1
+   1 GA  12     5.9969    11.3324    2 P    1 0 0    2 P    1 0-1    2 P    1-1 0
+                                    13 P   -1 0 0   13 P    0-1 0   13 P    0 0-1
+                                    14 P    0-1 1   14 P   -1 0 1   14 P    0 0 1
+                                    15 P    0 1-1   15 P    0 1 0   15 P   -1 1 0
+   1 GA  24     6.7399    12.7365    3 GA  -1 0 0    3 GA   1-1 0    3 GA   0-1 1
+                                     3 GA   0 0-1    4 GA  -1 0 0    4 GA   1-1-1
+                                     4 GA   0-1-1    4 GA   0 0 0    5 GA   0 0-1
+                                     5 GA  -1 0 1    5 GA  -1 1 0    5 GA   0-1 0
+                                     6 GA   0-1 0    6 GA  -1 1-1    6 GA  -1 0-1
+                                     6 GA   0 0 0    7 GA   0 0-1    7 GA  -1-1 1
+                                     7 GA  -1-1 0    7 GA   0 0 0    9 GA   0-1 0
+                                     9 GA   0 1-1    9 GA   1 0-1    9 GA  -1 0 0
+
+   2 P    4     2.3829     4.5030    1 GA   0 0 0    5 GA  -1 0 0    6 GA  -1 0 0
+                                     7 GA  -1 0 0
+   2 P   12     3.8913     7.3534   10 P    0 0 0   10 P    0 0 1   11 P    0 0 0
+                                    11 P    0 1 0   12 P    0 1 0   12 P    0 0 1
+                                    13 P    0 0 0   13 P   -1 0 0   14 P    0 0 0
+                                    14 P   -1 0 1   15 P    0 0 0   15 P   -1 1 0
+   2 P   12     4.5629     8.6227    3 GA   0 0 0    3 GA  -1 0 0    3 GA   0-1 0
+                                     4 GA   0 0-1    4 GA   0-1 0    4 GA  -1 0 0
+                                     8 GA  -1 0 0    8 GA  -1-1 0    8 GA  -1 0-1
+                                     9 GA  -1 0 0    9 GA   0 0 0    9 GA   0 0-1
+   2 P    6     5.5031    10.3993   16 P    0 0 0   16 P    0 0 1   16 P    0 1 0
+                                    16 P   -1 0 1   16 P   -1 1 0   16 P   -1 1 1
+   2 P   12     5.9969    11.3324    1 GA  -1 0 0    1 GA  -1 0 1    1 GA  -1 1 0
+                                     5 GA   0 0 0    5 GA  -1 0 1    5 GA  -1 1 0
+                                     6 GA   0 0-1    6 GA  -1 1-1    6 GA  -1 0-1
+                                     7 GA   0-1 0    7 GA  -1-1 0    7 GA  -1-1 1
+   2 P   24     6.7399    12.7365   10 P    0 1 0   10 P    0-1 1   10 P   -1 0 1
+                                    10 P    1 0 0   11 P    1 0 0   11 P   -1 1 0
+                                    11 P    0 1-1   11 P    0 0 1   12 P    1 0 0
+                                    12 P   -1 1 1   12 P    0 1 1   12 P    0 0 0
+                                    13 P    0-1 0   13 P   -1 1 0   13 P    0 0-1
+                                    13 P   -1 0 1   14 P    0 0 1   14 P   -1 0 0
+                                    14 P    0-1 1   14 P   -1 1 0   15 P   -1 0 0
+                                    15 P    0 1 0   15 P   -1 0 1   15 P    0 1-1
+
+   3 GA   4     2.3829     4.5030   11 P    0 1 0   13 P    0 0 0   15 P    0 1 0
+                                    16 P    0 1 0
+   3 GA  12     3.8913     7.3534    1 GA   0 0 0    1 GA   0 1 0    4 GA   0 0 0
+                                     4 GA   0 0-1    5 GA   0 0 0    5 GA  -1 1 0
+                                     7 GA   0 0 0    7 GA  -1 0 0    8 GA   0 0-1
+                                     8 GA  -1 0 0    9 GA   0 0 0    9 GA   0 1-1
+   3 GA  12     4.5629     8.6227    2 P    0 0 0    2 P    1 0 0    2 P    0 1 0
+                                    10 P    1 0 0   10 P    0 0 1   10 P    0 1 0
+                                    12 P    0 1 1   12 P    1 1 0   12 P    0 1 0
+                                    14 P    0 1 0   14 P    0 0 1   14 P    0 0 0
+   3 GA   6     5.5031    10.3993    6 GA   0 0 0    6 GA  -1 1 0    6 GA   0 1-1
+                                     6 GA   0 0-1    6 GA  -1 0 0    6 GA  -1 1-1
+   3 GA  12     5.9969    11.3324   11 P    1 0 0   11 P    1 1-1   11 P    1 1 0
+                                    13 P    0 1 0   13 P    0 1-1   13 P   -1 1 0
+                                    15 P    0 0 0   15 P   -1 1 0   15 P    0 1-1
+                                    16 P    0 1 1   16 P   -1 1 1   16 P    0 0 1
+   3 GA  24     6.7399    12.7365    1 GA   1 0 0    1 GA  -1 1 0    1 GA   0 1-1
+                                     1 GA   0 0 1    4 GA  -1 0 0    4 GA   1 0-1
+                                     4 GA   0-1 0    4 GA   0 1-1    5 GA  -1 0 0
+                                     5 GA   0 1 0    5 GA  -1 0 1    5 GA   0 1-1
+                                     7 GA   0-1 0    7 GA  -1 1 0    7 GA   0 0-1
+                                     7 GA  -1 0 1    8 GA   0-1 0    8 GA  -1 1-1
+                                     8 GA  -1 0-1    8 GA   0 0 0    9 GA   1 0-1
+                                     9 GA  -1 1 0    9 GA   0 0-1    9 GA   0 1 0
+
+   8 GA   4     2.3829     4.5030   10 P    1 0 1   11 P    1 1 0   12 P    1 1 1
+                                    16 P    0 1 1
+   8 GA  12     3.8913     7.3534    3 GA   0 0 1    3 GA   1 0 0    4 GA   0 0 0
+                                     4 GA   1 0 0    5 GA   0 1 0    5 GA   0 0 1
+                                     6 GA   0 0 0    6 GA   0 1 0    7 GA   0 0 0
+                                     7 GA   0 0 1    9 GA   1 0 0    9 GA   0 1 0
+   8 GA  12     4.5629     8.6227    2 P    1 0 0    2 P    1 1 0    2 P    1 0 1
+                                    13 P    1 0 0   13 P    0 0 1   13 P    0 1 0
+                                    14 P    0 1 1   14 P    0 0 1   14 P    1 0 1
+                                    15 P    0 1 1   15 P    1 1 0   15 P    0 1 0
+   8 GA   6     5.5031    10.3993    1 GA   1 0 0    1 GA   0 1 0    1 GA   0 0 1
+                                     1 GA   1 1 0    1 GA   1 0 1    1 GA   0 1 1
+   8 GA  12     5.9969    11.3324   10 P    1 1 0   10 P    0 1 1   10 P    1 1 1
+                                    11 P    1 0 1   11 P    1 1 1   11 P    0 1 1
+                                    12 P    0 1 1   12 P    1 1 0   12 P    1 0 1
+                                    16 P    1 1 1   16 P    1 0 1   16 P    1 1 0
+   8 GA  24     6.7399    12.7365    3 GA   0 1 0    3 GA   1-1 1    3 GA   1 0 1
+                                     3 GA   0 0 0    4 GA   0 0 1    4 GA   1 0-1
+                                     4 GA   1-1 0    4 GA   0 1 0    5 GA   1 0 0
+                                     5 GA  -1 1 1    5 GA   0 1 1    5 GA   0 0 0
+                                     6 GA   1 0 0    6 GA  -1 1 0    6 GA   0 1-1
+                                     6 GA   0 0 1    7 GA   0 1 0    7 GA   0-1 1
+                                     7 GA  -1 0 1    7 GA   1 0 0    9 GA   0 0 1
+                                     9 GA   1 1-1    9 GA   1 1 0    9 GA   0 0 0
+
+  10 P    4     2.3829     4.5030    5 GA  -1 0 0    6 GA  -1 0-1    8 GA  -1 0-1
+                                     9 GA   0 0-1
+  10 P   12     3.8913     7.3534    2 P    0 0 0    2 P    0 0-1   11 P    0 0 0
+                                    11 P    0 1-1   12 P    0 0 0   12 P    0 1 0
+                                    13 P    0 0-1   13 P   -1 0 0   14 P    0 0 0
+                                    14 P   -1 0 0   16 P    0 0 0   16 P   -1 1 0
+  10 P   12     4.5629     8.6227    1 GA  -1 0 0    1 GA   0 0 0    1 GA   0 0-1
+                                     3 GA  -1 0 0    3 GA   0 0-1    3 GA   0-1 0
+                                     4 GA   0-1-1    4 GA   0 0-1    4 GA  -1 0-1
+                                     7 GA  -1 0 0    7 GA  -1-1 0    7 GA  -1 0-1
+  10 P    6     5.5031    10.3993   15 P    0 0-1   15 P    0 0 0   15 P   -1 0 0
+                                    15 P    0 1-1   15 P   -1 1-1   15 P   -1 1 0
+  10 P   12     5.9969    11.3324    5 GA   0 0-1    5 GA  -1 1-1    5 GA  -1 0-1
+                                     6 GA  -1 0 0    6 GA  -1 1-1    6 GA   0 0-1
+                                     8 GA  -1-1 0    8 GA   0-1-1    8 GA  -1-1-1
+                                     9 GA  -1 0-1    9 GA  -1 1-1    9 GA  -1 0 0
+  10 P   24     6.7399    12.7365    2 P    0-1 0    2 P    0 1-1    2 P    1 0-1
+                                     2 P   -1 0 0   11 P    1 0-1   11 P   -1 1 0
+                                    11 P    0 0-1   11 P    0 1 0   12 P    0 0 1
+                                    12 P    0 1-1   12 P    1 0 0   12 P   -1 1 0
+                                    13 P    0-1 0   13 P   -1 1-1   13 P   -1 0-1
+                                    13 P    0 0 0   14 P    0 0-1   14 P   -1 0 1
+                                    14 P   -1 1 0   14 P    0-1 0   16 P   -1 0 0
+                                    16 P    0 1 0   16 P   -1 0 1   16 P    0 1-1
+
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   3
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        1.67 TCPU        1.07
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        1.67 TCPU        1.08
+
+ *******************************************************************************
+ *                                                                             *
+ *                                                                             *
+ *         FFFFF  RRRR   EEEE   QQQ   U   U  EEEE  N   N   CCC  Y   Y          *
+ *         F      R   R  E     Q   Q  U   U  E     NN  N  C      Y Y           *
+ *         FFF    RRRR   EEEE  Q   Q  U   U  EEEE  N N N  C       Y            *
+ *         F      R   R  E     Q  QQ  U   U  E     N  NN  C       Y            *
+ *         F      R   R  EEEE   QQ Q   UUU   EEEE  N   N   CCC    Y            *
+ *                                                                             *
+ *                                                                             *
+ * CALCULATION OF PHONON FREQUENCIES AT A SET OF K POINTS BY USING A SUPERCELL *
+ * SCHEME. THE FOLLOWING SUPERCELL HAS BEEN USED:                              *
+ *     2.000     0.000     0.000                                               *
+ *     0.000     2.000     0.000                                               *
+ *     0.000     0.000     2.000                                               *
+ * THAT PERMITS THE CALCULATION OF MODES AT     8 K POINTS                     *
+ * INTENSITIES COMPUTED VIA THE BERRY PHASE APPROACH                           *
+ *                                                                             *
+ * REFERENCES TO BE QUOTED WHEN USING THIS MODULE:                             *
+ *                                                                             *
+ * F. Pascale, C.M. Zicovich-Wilson, F. Lopez, B. Civalleri                    *
+ * R. Orlando, R. Dovesi                                                       *
+ * The calculation of the vibration frequencies of crystalline                 *
+ * compounds and its implementation in the CRYSTAL code                        *
+ * J. Comput. Chem. 25 (2004) 888-897                                          *
+ *                                                                             *
+ * C.M. Zicovich-Wilson, F. Pascale, C. Roetti, V.R. Saunders,                 *
+ * R. Orlando, R. Dovesi                                                       *
+ * The calculation of the vibration frequencies of alpha-quartz:               *
+ * the effect of hamiltonian and basis set                                     *
+ * J. Comput. Chem. 25 (2004) 1873-1881                                        *
+ *******************************************************************************
+
+
+
+ ATOMS ISOTOPIC MASS (AMU) FOR FREQUENCY CALCULATION 
+
+    1 GA     68.9257    2 P      30.9738    3 GA     68.9257    4 GA     68.9257
+    5 GA     68.9257    6 GA     68.9257    7 GA     68.9257    8 GA     68.9257
+    9 GA     68.9257   10 P      30.9738   11 P      30.9738   12 P      30.9738
+   13 P      30.9738   14 P      30.9738   15 P      30.9738   16 P      30.9738
+    
+ *******************************************************************************
+ * ACTIVATED INTERPOLATION OF THE HESSIAN UP TO      8000 K POINTS             *
+ *******************************************************************************
+    
+    
+ *******************************************************************************
+ * ACTIVATED CALCULATION OF THE ELECTROSTATIC CONTRIBUTION                     *
+ * TO THE FORCE CONSTANTS -LRFC-                                               *
+ *******************************************************************************
+    
+ * WITH SHRINKING FACTORS: IS1 =    20 IS2 =    20 IS3 =    20                 *
+ * AND RECIPROCAL LATTICE VECTORS:                                             *
+ *      -1.1417544    1.1417544    1.1417544                                   *
+ *       1.1417544   -1.1417544    1.1417544                                   *
+ *       1.1417544    1.1417544   -1.1417544                                   *
+ *******************************************************************************
+
+ INFORMATION CONCERNING THE SCF+GRADIENT CALCULATIONS REQUIRED FOR
+ GENERATING FREQUENCIES. IN PRINCIPLE 3N+1 SCF + GRADIENT
+ CALCULATIONS  ARE REQUIRED;
+ FOR EACH OF THEM THE REMAINING POINT SYMMETRY IS INDICATED.
+ POINT SYMMETRY PERMITS TO GENERATE GRADIENTS FOR DISPLACEMENT B 
+ STARTING FROM THE GRADIENT GENERATED BY DISPLACEMENT A.
+
+   N   LABEL SYMBOL DISPLACEMENT     SYM. 
+
+   1     EQUILIBRIUM GEOMETRY           24
+
+   2      1   GA           DX           4
+   3      1   GA           DY        GENERATED FROM LINE X WITH OP   6
+   4      1   GA           DZ        GENERATED FROM LINE X WITH OP   5
+   5      2   P            DX           2
+   6      2   P            DY        GENERATED FROM LINE X WITH OP   6
+   7      2   P            DZ        GENERATED FROM LINE X WITH OP   5
+ USE OF RESIDUAL SYMMETRY AFTER DISPLACEMENT
+
+ NUMERICAL GRADIENT COMPUTED WITH A SINGLE DISPLACEMENT (+DX) FOR EACH
+ CARTESIAN COORDINATE WITH RESPECT TO THE EQUILIBRIUM CONFIGURATION
+ DX=  0.003 ANGSTROM
+ NUMBER OF IRREDUCIBLE ATOMS                     2
+ NUMBER OF SCF+GRADIENT CALCULATIONS             3
+
+  ATOM  SYMOP  ORDER
+    1     24      4
+    2      6      3
+
+ ATOM  : IRREDUCIBLE ATOM
+ SYMOP : NUMBER OF SYMMETRY OPERATORS THAT DOESN'T MOVE THE IRREDUCIBLE ATOM
+ ORDER : MAXIMUM ORDER AMONG THE OPERATORS OF THE IRREDUCIBLE ATOM
+
+ *******************************************************************************
+
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX   155.64316 BOHR
+
+ CAPPA:IS1 10;IS2 10;IS3 10; K PTS MONK NET  47; SYMMOPS:K SPACE  48;G SPACE  24
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        1.68 TCPU        1.09
+
+ MATRIX SIZE: P(G)  319176, F(G)  160176, P(G) IRR   14944, F(G) IRR   14944
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 133
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        1.68 TCPU        1.09
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   3
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        1.71 TCPU        1.11
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        1.71 TCPU        1.12
+
+         THE FIRST POINT IS RESTORED FROM THE FREQINFO.DAT
+
+
+ RESTART FROM  AN INCOMPLETE HESSIAN MATRIX
+
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+                   FORCE CONSTANT MATRIX - NUMERICAL ESTIMATE
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ MAX ABS(DGRAD): MAXIMUM ABSOLUTE GRADIENT DIFFERENCE WITH RESPECT TO
+                 THE CENTRAL POINT
+ DE:             ENERGY DIFFERENCE WITH RESPECT TO THE CENTRAL POINT
+                 (DE IS EXPECTED TO BE POSITIVE FOR ALL DISPLACEMENTS)
+
+   ATOM      MAX ABS(DGRAD)       TOTAL ENERGY (AU)  N.CYC      DE       SYM
+    CENTRAL POINT             -1.812704903843E+04     0     0.0000E+00    24
+    1 GA DX                   RESTORED FROM A PREV. HESS. MATRIX
+    1 GA DY                   GENERATED FROM A PREVIOUS LINE
+    1 GA DZ                   GENERATED FROM A PREVIOUS LINE
+    2 P  DX                   RESTORED FROM A PREV. HESS. MATRIX
+    2 P  DY                   GENERATED FROM A PREVIOUS LINE
+    2 P  DZ                   GENERATED FROM A PREVIOUS LINE
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX   155.64316 BOHR
+
+ CAPPA:IS1 10;IS2 10;IS3 10; K PTS MONK NET  47; SYMMOPS:K SPACE  48;G SPACE  24
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        1.75 TCPU        1.15
+
+ MATRIX SIZE: P(G)  319176, F(G)  160176, P(G) IRR   14944, F(G) IRR   14944
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 133
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        1.75 TCPU        1.16
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   3
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        1.76 TCPU        1.17
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        1.77 TCPU        1.17
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.82158 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        1.77 TCPU        1.17
+
+ MATRIX SIZE: P(G)   39897, F(G)   20328, P(G) IRR    3494, F(G) IRR    3494
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS  99
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        1.77 TCPU        1.17
+
+ THERE ARE NO SYMMETRY ALLOWED DIRECTIONS
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        1.77 TCPU        1.17
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        1.77 TCPU        1.17
+
+ BORN CHARGE TENSORS OF THE SYMMETRY IRREDUCIBLE ATOMS
+
+ ATOM:     1
+    2.130093    0.000000   -0.000000
+   -0.000000    2.130093    0.000000
+    0.000000    0.000000    2.130093
+
+ ATOM:     2
+   -2.130093   -0.000000    0.000000
+    0.000000   -2.130093    0.000000
+   -0.000000    0.000000   -2.130093
+
+
+ +++ SYMMETRY ADAPTION OF VIBRATIONAL MODES +++
+
+
+ CLASS  | GROUP OPERATORS (SEE SYMMOPS KEYWORD)
+ --------------------------------------------------------------------
+ C2     |   2;   3;   4;
+ C3     |   5;  11;   7;   9;   6;  12;  10;   8;
+ SGD    |  13;  14;  17;  18;  23;  24;
+ S4     |  15;  16;  19;  21;  20;  22;
+
+ IRREP/CLA      E     C2     C3    SGD     S4
+ --------------------------------------------
+  MULTIP |      1      3      8      6      6
+ --------------------------------------------
+    F    |   3.00  -1.00   0.00   1.00  -1.00
+
+ F  -(3,   2);
+
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ EIGENVALUES (EIGV) OF THE MASS WEIGHTED HESSIAN MATRIX AND HARMONIC TRANSVERSE
+ OPTICAL (TO) FREQUENCIES. IRREP LABELS REFER TO SYMMETRY REPRESENTATION
+ ANALYSIS; A AND I INDICATE WHETHER THE MODE IS ACTIVE OR INACTIVE,
+ RESPECTIVELY, FOR IR AND RAMAN; INTEGRATED IR INTENSITIES IN BRACKETS.
+
+ CONVERSION FACTORS FOR FREQUENCIES:
+      1 CM**(-1) =   0.4556335E-05 HARTREE
+      1 THZ      =   0.3335641E+02 CM**(-1)
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+    MODES         EIGV          FREQUENCIES     IRREP  IR   INTENS    RAMAN
+             (HARTREE**2)   (CM**-1)     (THZ)             (KM/MOL)
+    1-   3    0.1857E-21      0.0000    0.0000  (F  )   A (     0.00)   A
+    4-   6    0.2707E-05    361.1116   10.8259  (F  )   A (     0.00)   A
+
+ NORMAL MODES NORMALIZED TO CLASSICAL AMPLITUDES (IN BOHR)
+
+ FREQ(CM**-1)      0.00      0.00      0.00    361.11    361.11    361.11
+
+ AT.   1 GA X    -0.1001    0.0000    0.0000    0.0000   -0.0671    0.0000
+            Y     0.0000   -0.1001    0.0000   -0.0671    0.0000    0.0000
+            Z     0.0000    0.0000   -0.1001    0.0000    0.0000   -0.0671
+ AT.   2 P  X    -0.1001    0.0000    0.0000    0.0000    0.1492    0.0000
+            Y     0.0000   -0.1001    0.0000    0.1492    0.0000    0.0000
+            Z     0.0000    0.0000   -0.1001    0.0000    0.0000    0.1492
+
+ *******************************************************************************
+
+ VIBRATIONAL TEMPERATURES (K) OF THE MODES AT THE GAMMA POINT
+
+ TO MODES
+   519.6 [   4;]   519.6 [   5;]   519.6 [   6;]
+    
+ *******************************************************************************
+ *                       TOTAL PHONON DENSITY OF STATES                        *
+ *      (NORMALIZED TO 3*N, WITH N NUMBER OF ATOMS IN THE REFERENCE CELL)      *
+ *    Users of this option are kindly asked to cite the following reference:   *
+ *      J. Baima, M. Ferrabone, R. Orlando, A. Erba and R. Dovesi,             *
+ *             Phys. Chem. Minerals, 43, 137-149 (2016)                        *
+ *******************************************************************************
+    
+ FREQUENCY (CM**-1)    TOTAL PDOS
+
+        0.00000          0.00062438
+        0.60060          0.00000000
+        1.20120          0.00000000
+        1.80180          0.00000000
+        2.40240          0.00000000
+        3.00300          0.00000000
+        3.60360          0.00000000
+        4.20420          0.00000000
+        4.80480          0.00041625
+        5.40541          0.00000000
+        6.00601          0.00000000
+        6.60661          0.00041625
+        7.20721          0.00000000
+        7.80781          0.00000000
+        8.40841          0.00000000
+        9.00901          0.00041625
+        9.60961          0.00041625
+       10.21021          0.00000000
+       10.81081          0.00000000
+       11.41141          0.00000000
+       12.01201          0.00000000
+       12.61261          0.00000000
+       13.21321          0.00166500
+       13.81381          0.00000000
+       14.41441          0.00000000
+       15.01502          0.00083250
+       15.61562          0.00000000
+       16.21622          0.00083250
+       16.81682          0.00000000
+       17.41742          0.00000000
+       18.01802          0.00124875
+       18.61862          0.00083250
+       19.21922          0.00083250
+       19.81982          0.00041625
+       20.42042          0.00000000
+       21.02102          0.00000000
+       21.62162          0.00000000
+       22.22222          0.00083250
+       22.82282          0.00041625
+       23.42342          0.00041625
+       24.02402          0.00124875
+       24.62462          0.00083250
+       25.22523          0.00000000
+       25.82583          0.00000000
+       26.42643          0.00249750
+       27.02703          0.00083250
+       27.62763          0.00000000
+       28.22823          0.00124875
+       28.82883          0.00208125
+       29.42943          0.00000000
+       30.03003          0.00000000
+       30.63063          0.00083250
+       31.23123          0.00041625
+       31.83183          0.00083250
+       32.43243          0.00000000
+       33.03303          0.00083250
+       33.63363          0.00083250
+       34.23423          0.00000000
+       34.83483          0.00124875
+       35.43544          0.00166500
+       36.03604          0.00124875
+       36.63664          0.00041625
+       37.23724          0.00000000
+       37.83784          0.00083250
+       38.43844          0.00457875
+       39.03904          0.00083250
+       39.63964          0.00166500
+       40.24024          0.00041625
+       40.84084          0.00124875
+       41.44144          0.00166500
+       42.04204          0.00208125
+       42.64264          0.00083250
+       43.24324          0.00000000
+       43.84384          0.00083250
+       44.44444          0.00166500
+       45.04505          0.00124875
+       45.64565          0.00249750
+       46.24625          0.00291375
+       46.84685          0.00208125
+       47.44745          0.00000000
+       48.04805          0.00333000
+       48.64865          0.00124875
+       49.24925          0.00166500
+       49.84985          0.00333000
+       50.45045          0.00416250
+       51.05105          0.00166500
+       51.65165          0.00208125
+       52.25225          0.00416250
+       52.85285          0.00166500
+       53.45345          0.00083250
+       54.05405          0.00083250
+       54.65465          0.00124875
+       55.25526          0.00457875
+       55.85586          0.00666000
+       56.45646          0.00333000
+       57.05706          0.00000000
+       57.65766          0.00333000
+       58.25826          0.00333000
+       58.85886          0.00291375
+       59.45946          0.00333000
+       60.06006          0.00374625
+       60.66066          0.00145688
+       61.26126          0.00062438
+       61.86186          0.00624375
+       62.46246          0.00291375
+       63.06306          0.00374625
+       63.66366          0.00083250
+       64.26426          0.00249750
+       64.86486          0.00208125
+       65.46547          0.00249750
+       66.06607          0.00374625
+       66.66667          0.00457875
+       67.26727          0.00499500
+       67.86787          0.00333000
+       68.46847          0.00770063
+       69.06907          0.00395437
+       69.66967          0.00832500
+       70.27027          0.00249750
+       70.87087          0.00208125
+       71.47147          0.00541125
+       72.07207          0.00624375
+       72.67267          0.00208125
+       73.27327          0.00624375
+       73.87387          0.00374625
+       74.47447          0.00083250
+       75.07508          0.00915750
+       75.67568          0.00666000
+       76.27628          0.00291375
+       76.87688          0.00666000
+       77.47748          0.00416250
+       78.07808          0.00603563
+       78.67868          0.00478687
+       79.27928          0.00707625
+       79.87988          0.00790875
+       80.48048          0.00582750
+       81.08108          0.00499500
+       81.68168          0.00541125
+       82.28228          0.00999000
+       82.88288          0.00832500
+       83.48348          0.00624375
+       84.08408          0.01873125
+       84.68468          0.01040625
+       85.28529          0.00582750
+       85.88589          0.00499500
+       86.48649          0.00978188
+       87.08709          0.00582750
+       87.68769          0.00832500
+       88.28829          0.01103063
+       88.88889          0.00999000
+       89.48949          0.01123875
+       90.09009          0.01623375
+       90.69069          0.01290375
+       91.29129          0.01519313
+       91.89189          0.01623375
+       92.49249          0.00874125
+       93.09309          0.01332000
+       93.69369          0.01727437
+       94.29429          0.00749250
+       94.89489          0.01498500
+       95.49550          0.00790875
+       96.09610          0.01914750
+       96.69670          0.01456875
+       97.29730          0.01602562
+       97.89790          0.01498500
+       98.49850          0.01207125
+       99.09910          0.01436063
+       99.69970          0.01290375
+      100.30030          0.01332000
+      100.90090          0.01956375
+      101.50150          0.01227938
+      102.10210          0.01456875
+      102.70270          0.01873125
+      103.30330          0.01207125
+      103.90390          0.02081250
+      104.50450          0.01248750
+      105.10511          0.01290375
+      105.70571          0.01248750
+      106.30631          0.01477688
+      106.90691          0.01706625
+      107.50751          0.01914750
+      108.10811          0.01165500
+      108.70871          0.01644187
+      109.30931          0.01665000
+      109.90991          0.01227938
+      110.51051          0.01165500
+      111.11111          0.01248750
+      111.71171          0.01540125
+      112.31231          0.01560937
+      112.91291          0.01956375
+      113.51351          0.01248750
+      114.11411          0.01415250
+      114.71471          0.02226938
+      115.31532          0.01227938
+      115.91592          0.02039625
+      116.51652          0.01248750
+      117.11712          0.00999000
+      117.71772          0.01332000
+      118.31832          0.01165500
+      118.91892          0.01207125
+      119.51952          0.01269563
+      120.12012          0.01540125
+      120.72072          0.01706625
+      121.32132          0.00999000
+      121.92192          0.00749250
+      122.52252          0.01186313
+      123.12312          0.01644187
+      123.72372          0.01623375
+      124.32432          0.01019813
+      124.92492          0.01519313
+      125.52553          0.01477688
+      126.12613          0.01373625
+      126.72673          0.01227938
+      127.32733          0.01019813
+      127.92793          0.01665000
+      128.52853          0.01332000
+      129.12913          0.01665000
+      129.72973          0.01623375
+      130.33033          0.01540125
+      130.93093          0.01560937
+      131.53153          0.02018813
+      132.13213          0.02122875
+      132.73273          0.01332000
+      133.33333          0.01456875
+      133.93393          0.01498500
+      134.53453          0.00978188
+      135.13514          0.00874125
+      135.73574          0.01123875
+      136.33634          0.00894937
+      136.93694          0.01394438
+      137.53754          0.02018813
+      138.13814          0.01602562
+      138.73874          0.01727437
+      139.33934          0.01560937
+      139.93994          0.01186313
+      140.54054          0.01415250
+      141.14114          0.00936562
+      141.74174          0.01352813
+      142.34234          0.01456875
+      142.94294          0.01186313
+      143.54354          0.01498500
+      144.14414          0.00686813
+      144.74474          0.01373625
+      145.34535          0.01685812
+      145.94595          0.01436063
+      146.54655          0.02081250
+      147.14715          0.01602562
+      147.74775          0.01852312
+      148.34835          0.01893937
+      148.94895          0.02976188
+      149.54955          0.01394438
+      150.15015          0.01977188
+      150.75075          0.01665000
+      151.35135          0.01311188
+      151.95195          0.02018813
+      152.55255          0.01540125
+      153.15315          0.01602562
+      153.75375          0.01893937
+      154.35435          0.02310188
+      154.95495          0.02102063
+      155.55556          0.01477688
+      156.15616          0.01207125
+      156.75676          0.01019813
+      157.35736          0.01373625
+      157.95796          0.01581750
+      158.55856          0.01498500
+      159.15916          0.01186313
+      159.75976          0.00936562
+      160.36036          0.01269563
+      160.96096          0.01706625
+      161.56156          0.01123875
+      162.16216          0.01082250
+      162.76276          0.00999000
+      163.36336          0.01706625
+      163.96396          0.01519313
+      164.56456          0.01227938
+      165.16517          0.01436063
+      165.76577          0.01998000
+      166.36637          0.01456875
+      166.96697          0.01914750
+      167.56757          0.01290375
+      168.16817          0.01956375
+      168.76877          0.01852312
+      169.36937          0.01373625
+      169.96997          0.01998000
+      170.57057          0.01852312
+      171.17117          0.02039625
+      171.77177          0.02539125
+      172.37237          0.02122875
+      172.97297          0.02143688
+      173.57357          0.01269563
+      174.17417          0.01581750
+      174.77477          0.03038625
+      175.37538          0.01893937
+      175.97598          0.02185313
+      176.57658          0.01602562
+      177.17718          0.02580750
+      177.77778          0.02539125
+      178.37838          0.01831500
+      178.97898          0.01893937
+      179.57958          0.01602562
+      180.18018          0.01831500
+      180.78078          0.02102063
+      181.38138          0.01394438
+      181.98198          0.01227938
+      182.58258          0.00832500
+      183.18318          0.01373625
+      183.78378          0.01873125
+      184.38438          0.01748250
+      184.98498          0.02039625
+      185.58559          0.02351813
+      186.18619          0.03038625
+      186.78679          0.02622375
+      187.38739          0.01873125
+      187.98799          0.02830500
+      188.58859          0.02913750
+      189.18919          0.02664000
+      189.78979          0.02539125
+      190.39039          0.02664000
+      190.99099          0.01727437
+      191.59159          0.02747250
+      192.19219          0.02997000
+      192.79279          0.02539125
+      193.39339          0.02518313
+      193.99399          0.02039625
+      194.59459          0.02185313
+      195.19520          0.02289375
+      195.79580          0.01415250
+      196.39640          0.02164500
+      196.99700          0.02393438
+      197.59760          0.01727437
+      198.19820          0.02664000
+      198.79880          0.01165500
+      199.39940          0.00978188
+      200.00000          0.01560937
+      200.60060          0.01373625
+      201.20120          0.00999000
+      201.80180          0.00853312
+      202.40240          0.01352813
+      203.00300          0.00894937
+      203.60360          0.00666000
+      204.20420          0.01061438
+      204.80480          0.01456875
+      205.40541          0.01935562
+      206.00601          0.01415250
+      206.60661          0.01415250
+      207.20721          0.01373625
+      207.80781          0.02081250
+      208.40841          0.01706625
+      209.00901          0.01373625
+      209.60961          0.01456875
+      210.21021          0.01498500
+      210.81081          0.01852312
+      211.41141          0.01644187
+      212.01201          0.01665000
+      212.61261          0.02997000
+      213.21321          0.02268563
+      213.81381          0.01852312
+      214.41441          0.02081250
+      215.01502          0.02102063
+      215.61562          0.01727437
+      216.21622          0.02643188
+      216.81682          0.03038625
+      217.41742          0.03267562
+      218.01802          0.02539125
+      218.61862          0.02955375
+      219.21922          0.03059438
+      219.81982          0.03163500
+      220.42042          0.02643188
+      221.02102          0.03558937
+      221.62162          0.03746250
+      222.22222          0.02601563
+      222.82282          0.03663000
+      223.42342          0.03683812
+      224.02402          0.03579750
+      224.62462          0.03288375
+      225.22523          0.02435063
+      225.82583          0.02788875
+      226.42643          0.03434062
+      227.02703          0.03142687
+      227.62763          0.02955375
+      228.22823          0.02726438
+      228.82883          0.01935562
+      229.42943          0.02622375
+      230.03003          0.01831500
+      230.63063          0.02851313
+      231.23123          0.02289375
+      231.83183          0.02372625
+      232.43243          0.02268563
+      233.03303          0.02122875
+      233.63363          0.02039625
+      234.23423          0.02226938
+      234.83483          0.02518313
+      235.43544          0.01332000
+      236.03604          0.02018813
+      236.63664          0.01831500
+      237.23724          0.01748250
+      237.83784          0.01290375
+      238.43844          0.01644187
+      239.03904          0.01165500
+      239.63964          0.01165500
+      240.24024          0.00832500
+      240.84084          0.00208125
+      241.44144          0.00686813
+      242.04204          0.00499500
+      242.64264          0.00291375
+      243.24324          0.01248750
+      243.84384          0.00374625
+      244.44444          0.01103063
+      245.04505          0.00707625
+      245.64565          0.00582750
+      246.24625          0.00666000
+      246.84685          0.00749250
+      247.44745          0.00457875
+      248.04805          0.00582750
+      248.64865          0.00104062
+      249.24925          0.00437062
+      249.84985          0.00999000
+      250.45045          0.00374625
+      251.05105          0.00249750
+      251.65165          0.00499500
+      252.25225          0.00291375
+      252.85285          0.00499500
+      253.45345          0.00000000
+      254.05405          0.00062438
+      254.65465          0.00000000
+      255.25526          0.00000000
+      255.85586          0.00000000
+      256.45646          0.00000000
+      257.05706          0.00000000
+      257.65766          0.00000000
+      258.25826          0.00000000
+      258.85886          0.00000000
+      259.45946          0.00000000
+      260.06006          0.00000000
+      260.66066          0.00000000
+      261.26126          0.00000000
+      261.86186          0.00000000
+      262.46246          0.00000000
+      263.06306          0.00000000
+      263.66366          0.00000000
+      264.26426          0.00000000
+      264.86486          0.00000000
+      265.46547          0.00000000
+      266.06607          0.00000000
+      266.66667          0.00000000
+      267.26727          0.00000000
+      267.86787          0.00000000
+      268.46847          0.00000000
+      269.06907          0.00000000
+      269.66967          0.00000000
+      270.27027          0.00000000
+      270.87087          0.00000000
+      271.47147          0.00000000
+      272.07207          0.00000000
+      272.67267          0.00000000
+      273.27327          0.00000000
+      273.87387          0.00000000
+      274.47447          0.00000000
+      275.07508          0.00000000
+      275.67568          0.00000000
+      276.27628          0.00000000
+      276.87688          0.00000000
+      277.47748          0.00000000
+      278.07808          0.00000000
+      278.67868          0.00000000
+      279.27928          0.00000000
+      279.87988          0.00000000
+      280.48048          0.00000000
+      281.08108          0.00000000
+      281.68168          0.00000000
+      282.28228          0.00000000
+      282.88288          0.00000000
+      283.48348          0.00000000
+      284.08408          0.00000000
+      284.68468          0.00000000
+      285.28529          0.00000000
+      285.88589          0.00000000
+      286.48649          0.00000000
+      287.08709          0.00000000
+      287.68769          0.00000000
+      288.28829          0.00000000
+      288.88889          0.00000000
+      289.48949          0.00000000
+      290.09009          0.00000000
+      290.69069          0.00000000
+      291.29129          0.00000000
+      291.89189          0.00000000
+      292.49249          0.00000000
+      293.09309          0.00000000
+      293.69369          0.00000000
+      294.29429          0.00000000
+      294.89489          0.00000000
+      295.49550          0.00000000
+      296.09610          0.00000000
+      296.69670          0.00000000
+      297.29730          0.00000000
+      297.89790          0.00000000
+      298.49850          0.00000000
+      299.09910          0.00000000
+      299.69970          0.00000000
+      300.30030          0.00000000
+      300.90090          0.00000000
+      301.50150          0.00000000
+      302.10210          0.00000000
+      302.70270          0.00000000
+      303.30330          0.00000000
+      303.90390          0.00000000
+      304.50450          0.00083250
+      305.10511          0.00166500
+      305.70571          0.00083250
+      306.30631          0.00124875
+      306.90691          0.00145688
+      307.50751          0.00166500
+      308.10811          0.00228937
+      308.70871          0.00353813
+      309.30931          0.00374625
+      309.90991          0.00166500
+      310.51051          0.00353813
+      311.11111          0.00603563
+      311.71171          0.00707625
+      312.31231          0.01311188
+      312.91291          0.00978188
+      313.51351          0.00790875
+      314.11411          0.01165500
+      314.71471          0.00853312
+      315.31532          0.01581750
+      315.91592          0.01040625
+      316.51652          0.01477688
+      317.11712          0.01082250
+      317.71772          0.01186313
+      318.31832          0.01893937
+      318.91892          0.01332000
+      319.51952          0.01248750
+      320.12012          0.01644187
+      320.72072          0.02226938
+      321.32132          0.01540125
+      321.92192          0.01477688
+      322.52252          0.02310188
+      323.12312          0.02539125
+      323.72372          0.02143688
+      324.32432          0.02039625
+      324.92492          0.02039625
+      325.52553          0.02164500
+      326.12613          0.01727437
+      326.72673          0.02768063
+      327.32733          0.02580750
+      327.92793          0.02497500
+      328.52853          0.03475687
+      329.12913          0.02788875
+      329.72973          0.02310188
+      330.33033          0.02851313
+      330.93093          0.02226938
+      331.53153          0.02497500
+      332.13213          0.02580750
+      332.73273          0.02622375
+      333.33333          0.03808687
+      333.93393          0.02809688
+      334.53453          0.03059438
+      335.13514          0.02934563
+      335.73574          0.03330000
+      336.33634          0.03163500
+      336.93694          0.03184312
+      337.53754          0.04100062
+      338.13814          0.02684813
+      338.73874          0.04079250
+      339.33934          0.04786875
+      339.93994          0.03392437
+      340.54054          0.03434062
+      341.14114          0.05411250
+      341.74174          0.02955375
+      342.34234          0.03350812
+      342.94294          0.04162500
+      343.54354          0.04287375
+      344.14414          0.04682812
+      344.74474          0.05411250
+      345.34535          0.05307187
+      345.94595          0.05952375
+      346.54655          0.05390437
+      347.14715          0.05119875
+      347.74775          0.05411250
+      348.34835          0.05661000
+      348.94895          0.05910750
+      349.54955          0.07679812
+      350.15015          0.06514312
+      350.75075          0.06327000
+      351.35135          0.07117875
+      351.95195          0.08699625
+      352.55255          0.10427062
+      353.15315          0.12820500
+      353.75375          0.13340812
+      354.35435          0.13320000
+      354.95495          0.14818500
+      355.55556          0.14110875
+      356.15616          0.16400250
+      356.75676          0.15942375
+      357.35736          0.13777875
+      357.95796          0.12633188
+      358.55856          0.11571750
+      359.15916          0.12799688
+      359.75976          0.12216937
+      360.36036          0.13257563
+      360.96096          0.10531125
+      361.56156          0.09178312
+      362.16216          0.06930562
+      362.76276          0.06535125
+      363.36336          0.05078250
+      363.96396          0.03996000
+      364.56456          0.03912750
+      365.16517          0.03454875
+      365.76577          0.02768063
+      366.36637          0.02580750
+      366.96697          0.01789875
+      367.56757          0.02102063
+      368.16817          0.02455875
+      368.76877          0.01519313
+      369.36937          0.01373625
+      369.96997          0.02018813
+      370.57057          0.01269563
+      371.17117          0.01436063
+      371.77177          0.01560937
+      372.37237          0.01165500
+      372.97297          0.01103063
+      373.57357          0.00894937
+      374.17417          0.01269563
+      374.77477          0.01061438
+      375.37538          0.01061438
+      375.97598          0.01332000
+      376.57658          0.00936562
+      377.17718          0.00416250
+      377.77778          0.00749250
+      378.37838          0.00416250
+      378.97898          0.01227938
+      379.57958          0.00582750
+      380.18018          0.00770063
+      380.78078          0.00686813
+      381.38138          0.00457875
+      381.98198          0.00582750
+      382.58258          0.00499500
+      383.18318          0.00499500
+      383.78378          0.00499500
+      384.38438          0.00478687
+      384.98498          0.00645188
+      385.58559          0.00353813
+      386.18619          0.00166500
+      386.78679          0.00249750
+      387.38739          0.00208125
+      387.98799          0.00291375
+      388.58859          0.00208125
+      389.18919          0.00166500
+      389.78979          0.00333000
+      390.39039          0.00291375
+      390.99099          0.00104062
+      391.59159          0.00249750
+      392.19219          0.00041625
+      392.79279          0.00083250
+      393.39339          0.00291375
+      393.99399          0.00000000
+      394.59459          0.00104062
+      395.19520          0.00083250
+      395.79580          0.00062438
+      396.39640          0.00145688
+      396.99700          0.00124875
+      397.59760          0.00000000
+      398.19820          0.00000000
+      398.79880          0.00000000
+      399.39940          0.00000000
+      400.00000          0.00000000
+      400.60060          0.00000000
+      401.20120          0.00000000
+      401.80180          0.00000000
+      402.40240          0.00000000
+      403.00300          0.00000000
+      403.60360          0.00000000
+      404.20420          0.00000000
+      404.80480          0.00000000
+      405.40541          0.00000000
+      406.00601          0.00000000
+      406.60661          0.00000000
+      407.20721          0.00000000
+      407.80781          0.00000000
+      408.40841          0.00000000
+      409.00901          0.00000000
+      409.60961          0.00000000
+      410.21021          0.00000000
+      410.81081          0.00000000
+      411.41141          0.00000000
+      412.01201          0.00000000
+      412.61261          0.00000000
+      413.21321          0.00000000
+      413.81381          0.00000000
+      414.41441          0.00000000
+      415.01502          0.00000000
+      415.61562          0.00000000
+      416.21622          0.00000000
+      416.81682          0.00000000
+      417.41742          0.00000000
+      418.01802          0.00000000
+      418.61862          0.00000000
+      419.21922          0.00000000
+      419.81982          0.00000000
+      420.42042          0.00000000
+      421.02102          0.00000000
+      421.62162          0.00000000
+      422.22222          0.00000000
+      422.82282          0.00000000
+      423.42342          0.00000000
+      424.02402          0.00000000
+      424.62462          0.00000000
+      425.22523          0.00000000
+      425.82583          0.00000000
+      426.42643          0.00000000
+      427.02703          0.00000000
+      427.62763          0.00000000
+      428.22823          0.00000000
+      428.82883          0.00000000
+      429.42943          0.00000000
+      430.03003          0.00000000
+      430.63063          0.00000000
+      431.23123          0.00000000
+      431.83183          0.00000000
+      432.43243          0.00000000
+      433.03303          0.00000000
+      433.63363          0.00000000
+      434.23423          0.00000000
+      434.83483          0.00000000
+      435.43544          0.00000000
+      436.03604          0.00000000
+      436.63664          0.00000000
+      437.23724          0.00000000
+      437.83784          0.00000000
+      438.43844          0.00000000
+      439.03904          0.00000000
+      439.63964          0.00000000
+      440.24024          0.00000000
+      440.84084          0.00000000
+      441.44144          0.00000000
+      442.04204          0.00000000
+      442.64264          0.00000000
+      443.24324          0.00000000
+      443.84384          0.00000000
+      444.44444          0.00000000
+      445.04505          0.00000000
+      445.64565          0.00000000
+      446.24625          0.00000000
+      446.84685          0.00000000
+      447.44745          0.00000000
+      448.04805          0.00000000
+      448.64865          0.00000000
+      449.24925          0.00000000
+      449.84985          0.00000000
+      450.45045          0.00000000
+      451.05105          0.00000000
+      451.65165          0.00000000
+      452.25225          0.00000000
+      452.85285          0.00000000
+      453.45345          0.00000000
+      454.05405          0.00000000
+      454.65465          0.00000000
+      455.25526          0.00000000
+      455.85586          0.00000000
+      456.45646          0.00000000
+      457.05706          0.00000000
+      457.65766          0.00000000
+      458.25826          0.00000000
+      458.85886          0.00000000
+      459.45946          0.00000000
+      460.06006          0.00000000
+      460.66066          0.00000000
+      461.26126          0.00000000
+      461.86186          0.00000000
+      462.46246          0.00000000
+      463.06306          0.00000000
+      463.66366          0.00000000
+      464.26426          0.00000000
+      464.86486          0.00000000
+      465.46547          0.00000000
+      466.06607          0.00000000
+      466.66667          0.00000000
+      467.26727          0.00000000
+      467.86787          0.00000000
+      468.46847          0.00000000
+      469.06907          0.00000000
+      469.66967          0.00000000
+      470.27027          0.00000000
+      470.87087          0.00000000
+      471.47147          0.00000000
+      472.07207          0.00000000
+      472.67267          0.00000000
+      473.27327          0.00000000
+      473.87387          0.00000000
+      474.47447          0.00000000
+      475.07508          0.00000000
+      475.67568          0.00000000
+      476.27628          0.00000000
+      476.87688          0.00000000
+      477.47748          0.00000000
+      478.07808          0.00000000
+      478.67868          0.00000000
+      479.27928          0.00000000
+      479.87988          0.00000000
+      480.48048          0.00000000
+      481.08108          0.00000000
+      481.68168          0.00000000
+      482.28228          0.00000000
+      482.88288          0.00000000
+      483.48348          0.00000000
+      484.08408          0.00000000
+      484.68468          0.00000000
+      485.28529          0.00000000
+      485.88589          0.00000000
+      486.48649          0.00000000
+      487.08709          0.00000000
+      487.68769          0.00000000
+      488.28829          0.00000000
+      488.88889          0.00000000
+      489.48949          0.00000000
+      490.09009          0.00000000
+      490.69069          0.00000000
+      491.29129          0.00000000
+      491.89189          0.00000000
+      492.49249          0.00000000
+      493.09309          0.00000000
+      493.69369          0.00000000
+      494.29429          0.00000000
+      494.89489          0.00000000
+      495.49550          0.00000000
+      496.09610          0.00000000
+      496.69670          0.00000000
+      497.29730          0.00000000
+      497.89790          0.00000000
+      498.49850          0.00000000
+      499.09910          0.00000000
+      499.69970          0.00000000
+      500.30030          0.00000000
+      500.90090          0.00000000
+      501.50150          0.00000000
+      502.10210          0.00000000
+      502.70270          0.00000000
+      503.30330          0.00000000
+      503.90390          0.00000000
+      504.50450          0.00000000
+      505.10511          0.00000000
+      505.70571          0.00000000
+      506.30631          0.00000000
+      506.90691          0.00000000
+      507.50751          0.00000000
+      508.10811          0.00000000
+      508.70871          0.00000000
+      509.30931          0.00000000
+      509.90991          0.00000000
+      510.51051          0.00000000
+      511.11111          0.00000000
+      511.71171          0.00000000
+      512.31231          0.00000000
+      512.91291          0.00000000
+      513.51351          0.00000000
+      514.11411          0.00000000
+      514.71471          0.00000000
+      515.31532          0.00000000
+      515.91592          0.00000000
+      516.51652          0.00000000
+      517.11712          0.00000000
+      517.71772          0.00000000
+      518.31832          0.00000000
+      518.91892          0.00000000
+      519.51952          0.00000000
+      520.12012          0.00000000
+      520.72072          0.00000000
+      521.32132          0.00000000
+      521.92192          0.00000000
+      522.52252          0.00000000
+      523.12312          0.00000000
+      523.72372          0.00000000
+      524.32432          0.00000000
+      524.92492          0.00000000
+      525.52553          0.00000000
+      526.12613          0.00000000
+      526.72673          0.00000000
+      527.32733          0.00000000
+      527.92793          0.00000000
+      528.52853          0.00000000
+      529.12913          0.00000000
+      529.72973          0.00000000
+      530.33033          0.00000000
+      530.93093          0.00000000
+      531.53153          0.00000000
+      532.13213          0.00000000
+      532.73273          0.00000000
+      533.33333          0.00000000
+      533.93393          0.00000000
+      534.53453          0.00000000
+      535.13514          0.00000000
+      535.73574          0.00000000
+      536.33634          0.00000000
+      536.93694          0.00000000
+      537.53754          0.00000000
+      538.13814          0.00000000
+      538.73874          0.00000000
+      539.33934          0.00000000
+      539.93994          0.00000000
+      540.54054          0.00000000
+      541.14114          0.00000000
+      541.74174          0.00000000
+      542.34234          0.00000000
+      542.94294          0.00000000
+      543.54354          0.00000000
+      544.14414          0.00000000
+      544.74474          0.00000000
+      545.34535          0.00000000
+      545.94595          0.00000000
+      546.54655          0.00000000
+      547.14715          0.00000000
+      547.74775          0.00000000
+      548.34835          0.00000000
+      548.94895          0.00000000
+      549.54955          0.00000000
+      550.15015          0.00000000
+      550.75075          0.00000000
+      551.35135          0.00000000
+      551.95195          0.00000000
+      552.55255          0.00000000
+      553.15315          0.00000000
+      553.75375          0.00000000
+      554.35435          0.00000000
+      554.95495          0.00000000
+      555.55556          0.00000000
+      556.15616          0.00000000
+      556.75676          0.00000000
+      557.35736          0.00000000
+      557.95796          0.00000000
+      558.55856          0.00000000
+      559.15916          0.00000000
+      559.75976          0.00000000
+      560.36036          0.00000000
+      560.96096          0.00000000
+      561.56156          0.00000000
+      562.16216          0.00000000
+      562.76276          0.00000000
+      563.36336          0.00000000
+      563.96396          0.00000000
+      564.56456          0.00000000
+      565.16517          0.00000000
+      565.76577          0.00000000
+      566.36637          0.00000000
+      566.96697          0.00000000
+      567.56757          0.00000000
+      568.16817          0.00000000
+      568.76877          0.00000000
+      569.36937          0.00000000
+      569.96997          0.00000000
+      570.57057          0.00000000
+      571.17117          0.00000000
+      571.77177          0.00000000
+      572.37237          0.00000000
+      572.97297          0.00000000
+      573.57357          0.00000000
+      574.17417          0.00000000
+      574.77477          0.00000000
+      575.37538          0.00000000
+      575.97598          0.00000000
+      576.57658          0.00000000
+      577.17718          0.00000000
+      577.77778          0.00000000
+      578.37838          0.00000000
+      578.97898          0.00000000
+      579.57958          0.00000000
+      580.18018          0.00000000
+      580.78078          0.00000000
+      581.38138          0.00000000
+      581.98198          0.00000000
+      582.58258          0.00000000
+      583.18318          0.00000000
+      583.78378          0.00000000
+      584.38438          0.00000000
+      584.98498          0.00000000
+      585.58559          0.00000000
+      586.18619          0.00000000
+      586.78679          0.00000000
+      587.38739          0.00000000
+      587.98799          0.00000000
+      588.58859          0.00000000
+      589.18919          0.00000000
+      589.78979          0.00000000
+      590.39039          0.00000000
+      590.99099          0.00000000
+      591.59159          0.00000000
+      592.19219          0.00000000
+      592.79279          0.00000000
+      593.39339          0.00000000
+      593.99399          0.00000000
+      594.59459          0.00000000
+      595.19520          0.00000000
+      595.79580          0.00000000
+      596.39640          0.00000000
+      596.99700          0.00000000
+      597.59760          0.00000000
+      598.19820          0.00000000
+      598.79880          0.00000000
+      599.39940          0.00000000
+      600.00000          0.00000000
+
+ INTEGRAL OF THE TOTAL PDOS:     5.98150
+
+
+ 1000 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0PDOS      1    0    0    0    0    0
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+  THERMODYNAMICAL PROPERTIES ARE CALCULATED AS A SUM OVER 47997 MODES
+
+
+
+ *******************************************************************************
+
+ HARMONIC VIBRATIONAL CONTRIBUTIONS TO THERMODYNAMIC FUNCTIONS AT GIVEN
+ TEMPERATURE AND PRESSURE:
+
+ (EL = ELECTRONIC ENERGY
+  E0 = ZERO-POINT ENERGY
+  ET = THERMAL CONTRIBUTION TO THE VIBRATIONAL ENERGY
+  PV = PRESSURE * VOLUME
+  TS = TEMPERATURE * ENTROPY)
+
+                          AU/CELL             EV/CELL                 KJ/MOL
+ EL            :   -2265.881129803250  -61657.760161901402    -5949070.06792241
+ E0            :       0.003527811325       0.095996626532           9.26226733
+
+
+ *******************************************************************************
+
+ THERMODYNAMIC FUNCTIONS WITH VIBRATIONAL CONTRIBUTIONS
+
+ AT (T =  298.15 K, P =   0.10132500E+00 MPA):
+
+                          AU/CELL             EV/CELL                 KJ/MOL
+ ET            :       0.002929351894       0.079711717501           7.69101231
+ PV            :       0.000000000968       0.000000026349           0.00000254
+ TS            :       0.005342718497       0.145382761410          14.02730544
+ ET+PV-TS      :      -0.002413365634      -0.065671017560          -6.33629058
+ EL+E0+ET+PV-TS:   -2265.880015357559  -61657.729836292434    -5949067.14194567
+
+ OTHER THERMODYNAMIC FUNCTIONS:
+
+                      mHARTREE/(CELL*K)     mEV/(CELL*K)              J/(MOL*K)
+ ENTROPY       :       0.017919565644       0.487616171088          47.04781297
+ HEAT CAPACITY :       0.016432006097       0.447137617942          43.14222593
+
+ *******************************************************************************
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        2.72 TCPU        1.79
+ EEEEEEEEEE TERMINATION  DATE 07 12 2022 TIME 21:32:38.3
+NODE    0 CPU TIME =         1.792
+    TOTAL CPU TIME =       270.721
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+end_date Wed Dec  7 21:32:39 GMT 2022
+ 
+TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv)
+binary wf (fort.9) is not written on this node
+fort.34            GaP_PBE_phonons_doss_2.gui5822     Dec 7 21:32
+SCFOUT.LOG         GaP_PBE_phonons_doss_2.SCFLOG2256     Dec 7 21:32
+FREQINFO.DAT       GaP_PBE_phonons_doss_2.FREQINFO749654   Dec 7 21:32
+fort.13            GaP_PBE_phonons_doss_2.f132553416  Dec 7 21:32
+fort.25            GaP_PBE_phonons_doss_2.f2512278    Dec 7 21:32
+BORN.DAT           GaP_PBE_phonons_doss_2.BORN300      Dec 7 21:32
+ 
+Disk usage:<du -m>
+5	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/test/conv/tmp_GaP_PBE_phonons_doss_2_
+</du -m>
+Filesystem                                          1K-blocks          Used     Available Use% Mounted on
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1842746243880 1703216939156  52% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1842746243880 1703216939156  52% /mnt/lustre/a2fs-work2
