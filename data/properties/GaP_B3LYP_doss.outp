@@ -1,4 +1,4 @@
-date Tue 6 Dec 2022 13:21:35 CET
+date Wed 7 Dec 2022 18:11:49 CET
 master hostname MacBook-Pro-8.local
 system Darwin MacBook-Pro-8.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
 user brunocamino
@@ -6,12 +6,13 @@ output data in /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/propertie
 properties in /Users/brunocamino/crystal
 input data in /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss.d3
 temporary directory /Users/brunocamino/crystal/tmp
-wave function data from /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/ll.f9 not found or empty
+wave function data from /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_optgeom.f9
+wave function formatted data from /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_optgeom.f98
 NEWK
 12 24
 1 0
 DOSS
-2 500 -1 -1 1 12 1
+2 500 -1 -1 1 12 0
 -0.367493 0.367493
 -1 1
 -1 2
@@ -61,25 +62,375 @@ END
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 06 12 2022 TIME 13:21:35.8
-Tue  6 Dec 2022 13:21:35 CET
+ EEEEEEEEEE STARTING  DATE 07 12 2022 TIME 18:11:49.6
+
+ *******************************************************************************
+ GaP                                                                             
+ CRYSTAL - PROPERTIES - TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ *******************************************************************************
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(BECKE 88)[LEE-YANG-PARR]
+
+ NON-LOCAL WEIGHTING FACTOR (EXCHANGE) =           0.9000
+ NON-LOCAL WEIGHTING FACTOR [CORRELATION] =        0.8100
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    20.0000
+
+ DIRECT LATTICE VECTOR COMPONENTS (ANGSTROM)
+         0.00000    2.76399    2.76399
+         2.76399    0.00000    2.76399
+         2.76399    2.76399    0.00000
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
+       A          B          C         ALPHA      BETA     GAMMA        VOLUME
+    3.90888    3.90888    3.90888     60.0000   60.0000   60.0000      42.23193
+ *******************************************************************************
+ N. OF ATOMS PER CELL         2 COULOMB OVERLAP TOL          (T1) 10**   -8
+ NUMBER OF SHELLS            25 COULOMB PENETRATION TOL      (T2) 10**   -8
+ NUMBER OF AO                63 EXCHANGE OVERLAP TOL         (T3) 10**   -8
+ N. OF ELECTRONS PER CELL    46 EXCHANGE PSEUDO OVP (F(G))   (T4) 10**   -8
+ CORE ELECTRONS PER CELL     38 EXCHANGE PSEUDO OVP (P(G))   (T5) 10**  -16
+ N. OF SYMMETRY OPERATORS    24 POLE ORDER IN MONO ZONE                   4
+ *******************************************************************************
+   ATOM N.AT.  SHELL    X(A)      Y(A)      Z(A)      EXAD       N.ELECT.
+ *******************************************************************************
+    1   31 GA   15     0.000     0.000     0.000   2.831E-01      30.597
+    2   15 P    10     1.382    -1.382    -1.382   5.061E-01      15.403
+ *******************************************************************************
+ DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
+ TOTAL ENERGY -2.2661949404679E+03  CONVERGENCE ON ENER        1.273E-11
+ KIN. ENERGY   2.2634275803076E+03  VIR. COEFF.           1.01715390E+00
+ N. OF SCF CYCLES                6  FERMI ENERGY              -0.185E+00
+ WEIGHT OF F(I) IN F(I+1)      80
+ SHRINK. FACT.(MONKH.)    10 10 10  SHRINKING FACTOR(GILAT NET)       20
+ NUMBER OF K POINTS IN THE IBZ  47  CELL VOLUME (A.U.)        268.800043
+ *******************************************************************************
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    78.17355 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.02 TCPU        0.01
+
+ MATRIX SIZE: P(G)  118963, F(G)   20112, P(G) IRR    7005, F(G) IRR    3470
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 261
+
+
+ CAPPA:IS1 10;IS2 10;IS3 10; K PTS MONK NET  47; SYMMOPS:K SPACE  48;G SPACE  24
+
+
+ CAPPA:IS1 12;IS2 12;IS3 12; K PTS MONK NET  72; SYMMOPS:K SPACE  48;G SPACE  24
+
+ *******************************************************************************
+ RESTART WITH NEW K POINTS NET
+ *******************************************************************************
+ POINTS IN THE IBZ                  72 POINTS(GILAT NET)               413
+ SHRINK FACTORS(MONK.)        12 12 12 SHRINK FACTOR(GILAT)             24
+ *******************************************************************************
+ *** K POINTS COORDINATES (OBLIQUE COORDINATES IN UNITS OF IS = 12)
+   1-R(  0  0  0)   2-C(  1  0  0)   3-C(  2  0  0)   4-C(  3  0  0)
+   5-C(  4  0  0)   6-C(  5  0  0)   7-R(  6  0  0)   8-C(  1  1  0)
+   9-C(  2  1  0)  10-C(  3  1  0)  11-C(  4  1  0)  12-C(  5  1  0)
+  13-C(  6  1  0)  14-C(  7  1  0)  15-C(  8  1  0)  16-C(  9  1  0)
+  17-C( 10  1  0)  18-C( 11  1  0)  19-C(  2  2  0)  20-C(  3  2  0)
+  21-C(  4  2  0)  22-C(  5  2  0)  23-C(  6  2  0)  24-C(  7  2  0)
+  25-C(  8  2  0)  26-C(  9  2  0)  27-C( 10  2  0)  28-C(  3  3  0)
+  29-C(  4  3  0)  30-C(  5  3  0)  31-C(  6  3  0)  32-C(  7  3  0)
+  33-C(  8  3  0)  34-C(  9  3  0)  35-C(  4  4  0)  36-C(  5  4  0)
+  37-C(  6  4  0)  38-C(  7  4  0)  39-C(  8  4  0)  40-C(  5  5  0)
+  41-C(  6  5  0)  42-C(  7  5  0)  43-R(  6  6  0)  44-C(  3  2  1)
+  45-C(  4  2  1)  46-C(  5  2  1)  47-C(  6  2  1)  48-C(  7  2  1)
+  49-C(  4  3  1)  50-C(  5  3  1)  51-C(  6  3  1)  52-C(  7  3  1)
+  53-C(  8  3  1)  54-C(  9  3  1)  55-C( 10  3  1)  56-C(  5  4  1)
+  57-C(  6  4  1)  58-C(  7  4  1)  59-C(  8  4  1)  60-C(  9  4  1)
+  61-C(  6  5  1)  62-C(  7  5  1)  63-C(  8  5  1)  64-C(  7  6  1)
+  65-C(  6  4  2)  66-C(  7  4  2)  67-C(  8  4  2)  68-C(  7  5  2)
+  69-C(  8  5  2)  70-C(  9  5  2)  71-C(  8  6  2)  72-C(  9  6  3)
+
+ FERMI ENERGY AND DENSITY MATRIX CALCULATION ON COMPUTED EIGENVECTORS
+ DENSITY MATRIX AT SCF CYCLE (  6+1)
+
+ INSULATING STATE
+ TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -1.8531964E-01 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K    7; EIG -7.0599707E-02 AU
+ INDIRECT ENERGY BAND GAP:   3.1217 eV
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -6.5071266E-02 AU
+
+ CORE DENSITY MATRIX CALCULATION
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.16 TCPU        0.15
+ ###############################################################################
+
+ TOTAL AND PROJECTED DENSITY OF STATES - FOURIER LEGENDRE METHOD
+ FROM BAND   21 TO BAND   30 ENERGY RANGE -0.36749E+00  0.36749E+00
+
+ ###############################################################################
+
+ NUMBER OF LEGENDRE POLYNOMIALS              12
+ NUMBER OF SYMMETRIZED PWS FOR EXPANSION     72
+ NUMBER OF K POINTS OF SECONDARY NET        413
+ NUMBER OF PROJECTIONS                        2
+ NUMBER OF ENERGY POINTS                    498
+
+ *** PROJECTION   1 ATOMIC ORBITALS     1   2   3   4   5   6   7   8   9  10
+                                       11  12  13  14  15  16  17  18  19  20
+                                       21  22  23  24  25  26  27  28  29  30
+                                       31  32  33  34  35  36  37  38  39  40
+                                       41
+
+ *** PROJECTION   2 ATOMIC ORBITALS    42  43  44  45  46  47  48  49  50  51
+                                       52  53  54  55  56  57  58  59  60  61
+                                       62  63
+
+ BAND     INTEGRATED DOSS PER PROJECTION AND TOTAL
+           1         2         T
+  21   0.93378   1.06622   2.00000
+  22   0.65738   1.34262   2.00000
+  23   0.60208   1.39792   2.00000
+  24   1.27544   0.72456   2.00000
+  25   1.30769   0.69231   2.00000
+  26   1.35645   0.64355   2.00000
+  27   1.36462   0.63538   2.00000
+  28   1.04433   0.95567   2.00000
+  29   1.17109   0.82891   2.00000
+  30   0.82088   1.17912   2.00000
+
+ *** INTEGRATED DENSITIES IN THE ENERGY INTERVAL PER PROJECTION AND TOTAL
+       1         2         T
+   10.53374    9.46626   20.00000
+
+ *** ENERGY  PROJECTED DENSITY OF STATES - FULL SCALE =    30.88182 AU
+
+  -0.36307  |           1    2                                                                                                      
+  -0.35571  |         1   2                                                                                                         
+  -0.34835  |      1    2                                                                                                           
+  -0.34098  |     1   2                                                                                                             
+  -0.33362  |                  1               2                                                                                    
+  -0.32625  |                                      1                                  2                                             
+  -0.31889  |                                       1                                   2                                           
+  -0.31152  |                                     1                               2                                                 
+  -0.30416  |                                      1                              2                                                 
+  -0.29679  |                                         1                                 2                                           
+  -0.28943  |                                               1                                            2                          
+  -0.28206  |                                                    1                                                    2             
+  -0.27470  |                                                    1                                                     2            
+  -0.26733  |                                               1                                                   2                   
+  -0.25997  |                                            1                                                 2                        
+  -0.25261  |                                           1                                                    2                      
+  -0.24524  |                                           1                                                         2                 
+  -0.23788  |                                        1                                                           2                  
+  -0.23051  |                                 1                                                       2                             
+  -0.22315  |                        1                                             2                                                
+  -0.21578  |                1                                  2                                                                   
+  -0.20842  |           1                         2                                                                                 
+  -0.20105  |       1                   2                                                                                           
+  -0.19369  |    1              2                                                                                                   
+  -0.18632  |1   2                                                                                                                  
+  -0.17896  2                                                                                                                       
+  -0.17159  2                                                                                                                       
+  -0.16423  2                                                                                                                       
+  -0.15687  2                                                                                                                       
+  -0.14950  2                                                                                                                       
+  -0.14214  2                                                                                                                       
+  -0.13477  2                                                                                                                       
+  -0.12741  2                                                                                                                       
+  -0.12004  2                                                                                                                       
+  -0.11268  2                                                                                                                       
+  -0.10531  2                                                                                                                       
+  -0.09795  2                                                                                                                       
+  -0.09058  2                                                                                                                       
+  -0.08322  2                                                                                                                       
+  -0.07586  2                                                                                                                       
+  -0.06849  | 2      1                                                                                                              
+  -0.06113  |        2                 1                                                                                            
+  -0.05376  |              2                       1                                                                                
+  -0.04640  |                      2                           1                                                                    
+  -0.03903  |                                      2                                 1                                              
+  -0.03167  |                                                           2                                            1              
+  -0.02430  |                                                                    2                                            1     
+  -0.01694  |                                                            2                                  1                       
+  -0.00957  |                                            2                        1                                                 
+  -0.00221  |                               2                   1                                                                   
+   0.00516  |                           2                   1                                                                       
+   0.01252  |                              2                         1                                                              
+   0.01988  |                              2                            1                                                           
+   0.02725  |                            2                             1                                                            
+   0.03461  |                                     2                                         1                                       
+   0.04198  |                                                   2                                                          1        
+   0.04934  |                                                     2                                                                1
+   0.05671  |                                                     2                                                            1    
+   0.06407  |                                              2                                             1                          
+   0.07144  |                                    2                               1                                                  
+   0.07880  |                                2                       1                                                              
+   0.08617  |                                  2                          1                                                         
+   0.09353  |                                         2                                1                                            
+   0.10089  |                                            2                                    1                                     
+   0.10826  |                                           2                                     1                                     
+   0.11562  |                                          2                                      1                                     
+   0.12299  |                                      2                                    1                                           
+   0.13035  |                                 2                               1                                                     
+   0.13772  |                           2                          1                                                                
+   0.14508  |                      2                       1                                                                        
+   0.15245  |                   2                       1                                                                           
+   0.15981  |                    2                          1                                                                       
+   0.16718  |                       2                                1                                                              
+   0.17454  |                           2                                       1                                                   
+   0.18191  |                              2                                            1                                           
+   0.18927  |                               2                                             1                                         
+   0.19663  |                            2                                         1                                                
+   0.20400  |                      2                                1                                                               
+   0.21136  |               2                     1                                                                                 
+   0.21873  |         2           1                                                                                                 
+   0.22609  |      2       1                                                                                                        
+   0.23346  |       2       1                                                                                                       
+   0.24082  |       2         1                                                                                                     
+   0.24819  |     2      1                                                                                                          
+   0.25555  |     2                                                                                                                 
+   0.26292  |             2                                                                                                         
+   0.27028  |                       2  1                                                                                            
+   0.27765  |                                  2      1                                                                             
+   0.28501  |                                          2         1                                                                  
+   0.29237  |                                             2            1                                                            
+   0.29974  |                                             2           1                                                             
+   0.30710  |                                                2         1                                                            
+   0.31447  |                                                  2     1                                                              
+   0.32183  |                                                  2 1                                                                  
+   0.32920  |                                                     2 1                                                               
+   0.33656  |                                                   2   1                                                               
+   0.34393  |                                             2    1                                                                    
+   0.35129  |                                       2     1                                                                         
+   0.35866  |                                     2        1                                                                        
+
+ *** ENERGY      TOTAL DENSITY OF STATES - FULL SCALE =    47.68988 AU
+
+  -0.36307  |                  T                                                                                                    
+  -0.35571  |               T                                                                                                       
+  -0.34835  |            T                                                                                                          
+  -0.34098  |         T                                                                                                             
+  -0.33362  |                                   T                                                                                   
+  -0.32625  |                                                                        T                                              
+  -0.31889  |                                                                          T                                            
+  -0.31152  |                                                                     T                                                 
+  -0.30416  |                                                                      T                                                
+  -0.29679  |                                                                            T                                          
+  -0.28943  |                                                                                          T                            
+  -0.28206  |                                                                                                      T                
+  -0.27470  |                                                                                                       T               
+  -0.26733  |                                                                                               T                       
+  -0.25997  |                                                                                          T                            
+  -0.25261  |                                                                                          T                            
+  -0.24524  |                                                                                             T                         
+  -0.23788  |                                                                                           T                           
+  -0.23051  |                                                                               T                                       
+  -0.22315  |                                                             T                                                         
+  -0.21578  |                                            T                                                                          
+  -0.20842  |                               T                                                                                       
+  -0.20105  |                      T                                                                                                
+  -0.19369  |               T                                                                                                       
+  -0.18632  |   T                                                                                                                   
+  -0.17896  T                                                                                                                       
+  -0.17159  T                                                                                                                       
+  -0.16423  T                                                                                                                       
+  -0.15687  T                                                                                                                       
+  -0.14950  T                                                                                                                       
+  -0.14214  T                                                                                                                       
+  -0.13477  T                                                                                                                       
+  -0.12741  T                                                                                                                       
+  -0.12004  T                                                                                                                       
+  -0.11268  T                                                                                                                       
+  -0.10531  T                                                                                                                       
+  -0.09795  T                                                                                                                       
+  -0.09058  T                                                                                                                       
+  -0.08322  T                                                                                                                       
+  -0.07586  T                                                                                                                       
+  -0.06849  |      T                                                                                                                
+  -0.06113  |                      T                                                                                                
+  -0.05376  |                                  T                                                                                    
+  -0.04640  |                                               T                                                                       
+  -0.03903  |                                                                       T                                               
+  -0.03167  |                                                                                                          T            
+  -0.02430  |                                                                                                                      T
+  -0.01694  |                                                                                                     T                 
+  -0.00957  |                                                                         T                                             
+  -0.00221  |                                                      T                                                                
+   0.00516  |                                                T                                                                      
+   0.01252  |                                                        T                                                              
+   0.01988  |                                                          T                                                            
+   0.02725  |                                                        T                                                              
+   0.03461  |                                                                            T                                          
+   0.04198  |                                                                                                        T              
+   0.04934  |                                                                                                               T       
+   0.05671  |                                                                                                             T         
+   0.06407  |                                                                                          T                            
+   0.07144  |                                                                    T                                                  
+   0.07880  |                                                         T                                                             
+   0.08617  |                                                              T                                                        
+   0.09353  |                                                                           T                                           
+   0.10089  |                                                                                  T                                    
+   0.10826  |                                                                                T                                      
+   0.11562  |                                                                                T                                      
+   0.12299  |                                                                          T                                            
+   0.13035  |                                                                T                                                      
+   0.13772  |                                                     T                                                                 
+   0.14508  |                                            T                                                                          
+   0.15245  |                                         T                                                                             
+   0.15981  |                                            T                                                                          
+   0.16718  |                                                   T                                                                   
+   0.17454  |                                                             T                                                         
+   0.18191  |                                                                     T                                                 
+   0.18927  |                                                                      T                                                
+   0.19663  |                                                                T                                                      
+   0.20400  |                                                   T                                                                   
+   0.21136  |                                  T                                                                                    
+   0.21873  |                    T                                                                                                  
+   0.22609  |              T                                                                                                        
+   0.23346  |              T                                                                                                        
+   0.24082  |                T                                                                                                      
+   0.24819  |           T                                                                                                           
+   0.25555  |       T                                                                                                               
+   0.26292  |                 T                                                                                                     
+   0.27028  |                                 T                                                                                     
+   0.27765  |                                                 T                                                                     
+   0.28501  |                                                             T                                                         
+   0.29237  |                                                                   T                                                   
+   0.29974  |                                                                  T                                                    
+   0.30710  |                                                                     T                                                 
+   0.31447  |                                                                     T                                                 
+   0.32183  |                                                                   T                                                   
+   0.32920  |                                                                       T                                               
+   0.33656  |                                                                     T                                                 
+   0.34393  |                                                              T                                                        
+   0.35129  |                                                       T                                                               
+   0.35866  |                                                      T                                                                
+
+  502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0DOSS      1   41    0    0    0    0
+
+  502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0DOSS      2   22    0    0    0    0
+
+  502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0DOSS      3   63    0    0    0    0
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DOSS        TELAPSE        0.25 TCPU        0.23
+ ENDPROP   
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.25 TCPU        0.23
+ EEEEEEEEEE TERMINATION  DATE 07 12 2022 TIME 18:11:49.9
+Wed  7 Dec 2022 18:11:49 CET
 Contents of temporary directory:
-total 425504
--rw-r--r--  1 brunocamino  admin       1168 10 Nov 10:23 SCFOUT.LOG
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 diis_Fg
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 diis_Fia1
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 diis_Fia2
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 diis_Sk
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 fort.10
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 fort.20
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 fort.28
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 fort.29
--rw-r--r--  1 brunocamino  admin     549496 10 Nov 10:23 fort.3
--rw-r--r--@ 1 brunocamino  admin       1986 10 Nov 10:23 fort.34
--rw-r--r--  1 brunocamino  admin     985536 10 Nov 10:23 fort.61
--rw-r--r--  1 brunocamino  admin     492768 10 Nov 10:23 fort.62
--rw-r--r--  1 brunocamino  admin  214944432 10 Nov 10:23 fort.8
--rw-r--r--  1 brunocamino  admin          0 10 Nov 10:23 fort.9
--rw-r--r--  1 brunocamino  admin     866120 10 Nov 10:23 fort.95
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss.gui
+total 26712
+-rw-r--r--  1 brunocamino  admin    24759  7 Dec 18:11 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin  3018816  7 Dec 18:11 fort.10
+-rw-r--r--  1 brunocamino  admin   160904  7 Dec 18:11 fort.11
+-rw-r--r--  1 brunocamino  admin  2855136  7 Dec 18:11 fort.13
+-rw-r--r--  1 brunocamino  admin    18657  7 Dec 18:11 fort.25
+-rw-r--r--  1 brunocamino  admin   160904  7 Dec 18:11 fort.3
+-rw-r--r--  1 brunocamino  admin   168640  7 Dec 18:11 fort.61
+-rw-r--r--  1 brunocamino  admin   102608  7 Dec 18:11 fort.62
+-rw-r--r--  1 brunocamino  admin      100  7 Dec 18:10 fort.7
+-rw-r--r--  1 brunocamino  admin  4477608  7 Dec 18:11 fort.8
+-rw-r--r--  1 brunocamino  admin   381280  7 Dec 18:11 fort.9
+-rw-r--r--  1 brunocamino  admin   963920  7 Dec 18:11 fort.98
+file fort.9 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss.f9
+file fort.98 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss.f98
+file fort.13 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss.f13
+file fort.25 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss.f25
+file DOSS.DAT saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss_dat.DOSS
 output of Crgra in file /Users/brunocamino/Desktop/UCL/crystal/GaP_project/data/properties/GaP_B3LYP_doss.outpg
